@@ -1,0 +1,53 @@
+2016-02-10 09:39:07.6080 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 09:44:10.3035 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 09:46:43.2150 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 09:53:41.0897 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 10:21:01.2019 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 10:33:28.1111 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 11:13:46.4611 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 11:40:25.1020 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 11:40:29.6594 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 11:40:34.1283 | Info | Mensaje = Usuario jdelgado bloqueado | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 11:40:41.2040 | Info | Mensaje = Usuario jdelgado bloqueado | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 12:40:49.7411 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 12:40:55.3384 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 13:56:46.5646 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 14:06:04.9492 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 14:36:37.7783 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 14:40:22.0045 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 15:04:31.5508 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 15:23:44.2755 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:00:01.5427 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:04:44.1207 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:25:00.3169 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:31:32.0635 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:38:31.8220 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:41:09.4626 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:44:20.9224 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:50:12.9386 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 16:58:11.5249 | Info | Mensaje = Factura #656 creada por: Jeannette Delgado(jdelgado). | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 16:58:17.7938 | Info | Mensaje = Factura #656 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-10T16:58:17.0545995-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 16:58:22.6142 | Info | Mensaje = Factura #656 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-10T16:58:22.6002627-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 16:58:23.1704 | Info | Mensaje = Factura #656, Procesada por: jdelgado , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 17:07:22.1970 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-10 17:09:43.8675 | Info | Mensaje = Factura cancelada por: jdelgado , Acción: Cancelar_Factura , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 17:11:32.8032 | Info | Mensaje = Factura #657 creada por: Jeannette Delgado(jdelgado). | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 17:11:38.3489 | Info | Mensaje = Factura #657 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-10T17:11:38.2928989-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 17:11:42.3951 | Info | Mensaje = Factura #657 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-10T17:11:42.3861265-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-10 17:11:42.8792 | Info | Mensaje = Factura #657, Procesada por: jdelgado , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4

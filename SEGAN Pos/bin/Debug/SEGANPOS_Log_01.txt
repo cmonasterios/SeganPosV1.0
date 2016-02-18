@@ -1,0 +1,42 @@
+2016-02-12 09:30:37.9588 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-12 09:30:46.4360 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 09:31:48.2335 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-12 09:46:37.5309 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 09:52:09.6345 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 09:52:26.5559 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-12 09:56:53.7953 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-12 14:07:16.1804 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 14:24:32.8832 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 14:49:03.0607 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:04:50.2467 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:04:50.3437 | Info | Mensaje = Autorizado por: jdelgado, Acción: Eliminar_Item, Nombre Técnico: frmFacturar. ¿ Eliminar artículos ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:05:26.2281 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:05:26.3011 | Info | Mensaje = Autorizado por: jdelgado, Acción: Eliminar_Item, Nombre Técnico: frmFacturar. ¿ Eliminar artículos ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:05:58.9328 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:05:59.0308 | Info | Mensaje = Autorizado por: jdelgado, Acción: Descuento, Nombre Técnico: frmFacturar. ¿ Autorizar descuento ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:13:32.6690 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-12 15:20:48.3130 | Info | Mensaje = Factura #659 creada por: NEILIM Villegas(nvillegas). | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:20:54.3976 | Info | Mensaje = Factura #659 actualizada por: NEILIM Villegas(nvillegas). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-12T15:20:53.6676128-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:20:59.5141 | Info | Mensaje = Factura #659 actualizada por: NEILIM Villegas(nvillegas). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-12T15:20:59.4981958-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:21:00.0122 | Info | Mensaje = Factura #659, Procesada por: nvillegas , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:24:46.1728 | Info | Mensaje = Factura #660 creada por: NEILIM Villegas(nvillegas). | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:24:50.6083 | Info | Mensaje = Factura #660 actualizada por: NEILIM Villegas(nvillegas). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-12T15:24:50.5963033-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:24:54.6777 | Info | Mensaje = Factura #660 actualizada por: NEILIM Villegas(nvillegas). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-12T15:24:54.6767113-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:24:55.0587 | Info | Mensaje = Factura #660, Procesada por: nvillegas , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-12 15:50:37.1090 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18

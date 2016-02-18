@@ -1,0 +1,5 @@
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\PrinterManager\bin\Release\PrinterManager.XML
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\PrinterManager\bin\Release\PrinterManager.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\PrinterManager\bin\Release\PrinterManager.pdb
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\PrinterManager\obj\Release\PrinterManager.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\PrinterManager\obj\Release\PrinterManager.pdb

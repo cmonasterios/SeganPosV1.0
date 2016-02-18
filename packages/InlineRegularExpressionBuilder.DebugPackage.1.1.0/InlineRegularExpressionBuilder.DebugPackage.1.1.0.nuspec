@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>InlineRegularExpressionBuilder.DebugPackage</id>
+    <version>1.1.0</version>
+    <title>Inline Regular Expression Builder</title>
+    <authors>Timothy James</authors>
+    <owners>Timothy James</owners>
+    <licenseUrl>http://inlineregexbuilder.codeplex.com/license</licenseUrl>
+    <projectUrl>http://inlineregexbuilder.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows users to create and maintain regular expressions by building them inline within their C#.</description>
+    <releaseNotes>This is the initial release of the inline regular expression builder. Features include: Strong Name Key on assembly, 
+Test Console for a place to test and create examples, 
+Shortcut methods for inserting standard character groups/classes, 
+Built in validation methods for validation, 
+Zero-width negative and positive look ahead and behind, 
+Back references, 
+Logical groups with capturing/non-capturing parameters, and 
+Automatic character encoding for special characters via parameter Boolean</releaseNotes>
+    <copyright>Timothy James 2013</copyright>
+    <language>en-US</language>
+    <tags>regex regular expression c# builder</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

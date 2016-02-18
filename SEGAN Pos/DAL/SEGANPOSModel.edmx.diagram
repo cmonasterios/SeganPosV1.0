@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7386e4a16a0345beb8a4a74d173fe215" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Accion" Width="1.5" PointX="5.25" PointY="31.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ActualizacionArticulo" Width="1.5" PointX="19.625" PointY="17.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ActualizacionEncabezado" Width="1.5" PointX="0.75" PointY="26.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_AlivioEfectivoDetalle" Width="1.5" PointX="20" PointY="22" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_AlivioEfectivoEncabezado" Width="1.5" PointX="7.75" PointY="14.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Almacen" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_AperturaCajeroDenominacion" Width="1.5" PointX="18" PointY="16.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_AperturaCajeroEncabezado" Width="1.5" PointX="9.75" PointY="11.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_App" Width="1.5" PointX="0.75" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ArticuloTienda" Width="1.5" PointX="2.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Auditoria" Width="1.5" PointX="9.75" PointY="8.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Caja" Width="1.5" PointX="1.5" PointY="10.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CajaDispositivo" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CajaDispositivoHistorico" Width="1.5" PointX="6.75" PointY="6.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Cargo" Width="1.5" PointX="12.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreCajeroDenominacion" Width="1.5" PointX="15" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreCajeroEncabezado" Width="1.5" PointX="15" PointY="20.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreCajeroPagos" Width="1.5" PointX="17.25" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreCajeroPOS" Width="1.5" PointX="17.25" PointY="18.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreVentaEncabezado" Width="1.5" PointX="12" PointY="18.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreVentaPagos" Width="1.5" PointX="17.25" PointY="20.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreVentaPOS" Width="1.5" PointX="14.25" PointY="18.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Ciudad" Width="1.5" PointX="7.5" PointY="25.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Cliente" Width="1.5" PointX="7.5" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ClienteFormaPago" Width="1.5" PointX="9.75" PointY="26.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ClienteTelefono" Width="1.5" PointX="9.75" PointY="28" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Coleccion" Width="1.5" PointX="12.875" PointY="8.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Color" Width="1.5" PointX="15.125" PointY="7.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CombinacionGrupos" Width="1.5" PointX="5.25" PointY="15.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Contingencia" Width="1.5" PointX="3.75" PointY="6.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Denominacion" Width="1.5" PointX="12.75" PointY="29.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Departamento" Width="1.5" PointX="14.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_DepositoCheque" Width="1.5" PointX="12" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_DepositoDetalle" Width="1.5" PointX="15" PointY="24.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Descuento" Width="1.5" PointX="7.5" PointY="34.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Dispositivo" Width="1.5" PointX="4.5" PointY="4.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EfectivoRemanenteDetalle" Width="1.5" PointX="15" PointY="29.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EfectivoRemanenteEncabezado" Width="1.5" PointX="12.75" PointY="35.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EmpleadoAcceso" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EmpleadoLocalidad" Width="1.5" PointX="7.5" PointY="18.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Empleados" Width="1.5" PointX="3" PointY="13.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EmpleadoTerminal" Width="1.5" PointX="16.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EntidadFinanciera" Width="1.5" PointX="9.75" PointY="16.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Estado" Width="1.5" PointX="5.25" PointY="24.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Estatus" Width="1.5" PointX="5.25" PointY="23.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_EventoTerminal" Width="1.5" PointX="7.5" PointY="33.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FacturaDetalle" Width="1.5" PointX="14.25" PointY="25.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FacturaEncabezado" Width="1.5" PointX="12" PointY="23.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FacturaEsperaDetalle" Width="1.5" PointX="12" PointY="27.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FacturaEsperaEncabezado" Width="1.5" PointX="9.75" PointY="24.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FacturaPago" Width="1.5" PointX="17.25" PointY="26.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Feriados" Width="1.5" PointX="5.25" PointY="21.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FeriadosRegion" Width="1.5" PointX="7.5" PointY="20.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FormaPago" Width="1.5" PointX="12" PointY="14.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Funcionalidad" Width="1.5" PointX="9" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Genero" Width="1.5" PointX="12.875" PointY="10" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Grupo" Width="1.5" PointX="12.875" PointY="11.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_GrupoFuncionalidad" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_GrupoZona" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoArticuloExistencia" Width="1.5" PointX="16.75" PointY="3.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoFacturaDetalle" Width="1.5" PointX="15" PointY="27.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoFacturaEncabezado" Width="1.5" PointX="12.75" PointY="24.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoFacturaPago" Width="1.5" PointX="18" PointY="23.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoNotaCreditoDetalle" Width="1.5" PointX="20.25" PointY="26.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoNotaCreditoEncabezado" Width="1.5" PointX="17" PointY="25.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HuellaEmpleado" Width="1.5" PointX="5.25" PointY="8" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Insumos" Width="1.5" PointX="10" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Lecturas" Width="1.5" PointX="7.5" PointY="13" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Lenguaje" Width="1.5" PointX="0.75" PointY="20.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Localidad" Width="1.5" PointX="5.25" PointY="18.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_LogActualizacion" Width="1.5" PointX="3" PointY="15.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_LogErrores" Width="1.5" PointX="16.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_LogUsuarioClave" Width="1.5" PointX="17.75" PointY="7.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_MaquinaFiscal" Width="1.5" PointX="18.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_MarcaDispositivo" Width="1.5" PointX="18.75" PointY="3.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Mensaje" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_MensajeTerminal" Width="1.5" PointX="14" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Mes" Width="1.5" PointX="18.75" PointY="5.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ModoVerificacion" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Modulo" Width="1.5" PointX="3" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_MotivoDescuento" Width="1.5" PointX="5.5" PointY="2.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_MotivoDevolucion" Width="1.5" PointX="12" PointY="30.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_NivelPerfil" Width="1.5" PointX="1.5" PointY="7.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_NotaCreditoDetalle" Width="1.5" PointX="21.5" PointY="23.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_NotaCreditoEncabezado" Width="1.5" PointX="19.25" PointY="24.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Objeto" Width="1.5" PointX="5.25" PointY="29.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ObjetoAccion" Width="1.5" PointX="7.5" PointY="29.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ObjetoEstatus" Width="1.5" PointX="7.5" PointY="27.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Organizacion" Width="1.5" PointX="3" PointY="18.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_PaginasUsuario" Width="1.5" PointX="19.75" PointY="7.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Pais" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ParametrosSistema" Width="1.5" PointX="19.75" PointY="9.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Parentesco" Width="1.5" PointX="19.75" PointY="14.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Perfil" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_PerfilAccion" Width="1.5" PointX="10.5" PointY="29.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_PerfilObjetos" Width="1.5" PointX="10.5" PointY="13.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_POS" Width="1.5" PointX="12" PointY="16.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_POSTienda" Width="1.5" PointX="12" PointY="20.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_PrioridadModulo" Width="1.5" PointX="0.75" PointY="30.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Privilegio" Width="1.5" PointX="0.75" PointY="15" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Referencia" Width="1.5" PointX="15.125" PointY="10.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Region" Width="1.5" PointX="3" PointY="16.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_RegionPais" Width="1.5" PointX="3" PointY="24.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_SeguridadPlantilla" Width="1.5" PointX="0.75" PointY="28.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_SeguridadPlantillaApp" Width="1.5" PointX="3" PointY="20.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Talla" Width="1.5" PointX="15.125" PointY="13.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Tema" Width="1.5" PointX="12.875" PointY="12.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Temporada" Width="1.5" PointX="12.875" PointY="7.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TemporadaGrupo" Width="1.5" PointX="15.125" PointY="12.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Terminal" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TerminalGrupo" Width="1.5" PointX="7.5" PointY="16.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TerminalZona" Width="1.5" PointX="20.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Tienda" Width="1.5" PointX="9.75" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TiendaTelefono" Width="1.5" PointX="12" PointY="32" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoDescuento" Width="1.5" PointX="5.25" PointY="26.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoDispositivo" Width="1.5" PointX="2.25" PointY="4.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoDocumento" Width="1.5" PointX="5.25" PointY="27.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoEntrada" Width="1.5" PointX="20.75" PointY="3.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoFuncionalidad" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoInsumo" Width="1.5" PointX="7.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoParentesco" Width="1.5" PointX="20.75" PointY="5.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoRegion" Width="1.5" PointX="0.75" PointY="16.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoServicios" Width="1.5" PointX="20.75" PointY="11.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoTemporada" Width="1.5" PointX="10.625" PointY="7.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoTerminal" Width="1.5" PointX="21.75" PointY="7.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoTienda" Width="1.5" PointX="7.5" PointY="22.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoTiendaFormaPago" Width="1.5" PointX="17.125" PointY="14.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Usuario" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_UsuarioApp" Width="1.5" PointX="3" PointY="12.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_UsuarioBackup" Width="1.5" PointX="21.75" PointY="9.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_UsuarioTienda" Width="1.5" PointX="12" PointY="33.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Zonas" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ConfiguracionSistema" Width="1.5" PointX="21.75" PointY="13.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Log_Sesiones" Width="1.5" PointX="21.75" PointY="15.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_LogSesiones" Width="1.5" PointX="21.75" PointY="17.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_LogTransacciones" Width="1.5" PointX="21.75" PointY="19.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Politica" Width="1.5" PointX="22.75" PointY="1.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_PreguntaSecreta" Width="1.5" PointX="22.75" PointY="3.625" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ObjetoAccion_EPK_Accion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_PerfilAccion_EPK_Accion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ActualizacionDetalle_EPK_ActualizacionEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_LogActualizacion_EPK_ActualizacionEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivoDetalle_EPK_AlivioEfectivo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivoDetalle_EPK_Denominacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivo_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivo_EPK_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivo_EPK_Usuario2" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivoEncabezado_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AlivioEfectivoEncabezado_EPK_MotivoDescuento" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AperturaCajeroDenominacion_EPK_AperturaCajeroEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AperturaCajeroDenominacion_EPK_Denominacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AperturaCajero_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_AperturaCajero_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Modulo_EPK_App" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_SeguridadPlantillaApp_EPK_App" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_UsuarioAppSEGAN_EPK_App" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CajaDispositivo_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CajaDispositivoHistorico_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajero_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Contingencia_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaEncabezado_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaEncabezado_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Usuario_EPK_Caja" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CajaDispositivo_EPK_Dispositivo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CajaDispositivoHistorico_EPK_Dispositivo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroDenominacion_EPK_CierreCajeroEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroDenominacion_EPK_Denominacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroDenominacion_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajero_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroEncabezado_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPagos_EPK_CierreCajeroEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPOS_EPK_CierreCajeroEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPagos_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPagos_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPOS_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPOS_EPK_POS" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreCajeroPOS_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaEncabezado_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaEncabezado_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaPagos_EPK_CierreVentaEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaPOS_EPK_CierreVentaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaPagos_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaPagos_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaDetalle_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaDetalle_EPK_POS" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreVentaPOS_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Ciudad_EPK_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Tienda_EPK_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Cliente_EPK_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Cliente_EPK_Estatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Cliente_EPK_TipoDescuento" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Cliente_EPK_TipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ClienteFormaPago_EPK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ClienteTelefono_EPK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaEncabezado_EPK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaEncabezado_EPK_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ClienteFormaPago_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Referencia_EPK_Coleccion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CombinacionGrupos_EPK_RegionUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoDetalle_EPK_Denominacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EfectivoRemanenteDetalle_EPK_Denominacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoCheque_EPK_FacturaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoCheque_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoDetalle_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Descuento_EPK_TipoDescuento" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Dispositivo_EPK_Estatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Dispositivo_EPK_TipoDispositivo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EfectivoRemanenteDetalle_EPK_EfectivoRemanente" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EmpleadoAcceso_EPK_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EmpleadoAcceso_EPK_RegionUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EmpleadoLocalidad_EPK_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EmpleadoLocalidad_EPK_Localidad" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Empleados_EPK_ModoVerificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Empleados_EPK_Privilegio" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Empleados_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HuellaEmpleado_EPK_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Lecturas_EPK_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaPago_EPK_EntidadFinanciera" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaPago_EPK_EntidadFinanciera" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_POS_EPK_EntidadFinanciera" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Estado_EPK_RegionPais" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Estatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaEncabezado_EPK_Estatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ObjetoEstatus_EPK_Estatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_EventoTerminal_EPK_Terminal" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaDetalle_EPK_FacturaEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaDetalle_EPK_MotivoDevolucion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaDetalle_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEncabezado_EPK_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaPago_EPK_FacturaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEncabezado_EPK_FacturaEncabezado1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaDetalle_EPK_FacturaEsperaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaEncabezado_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaEncabezado_EPK_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaPago_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaPago_EPK_POS" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaPago_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FeriadoRegion_EPK_Feriados" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Feriados_EPK_Organizacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FeriadoRegion_EPK_RegionUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaPago_EPK_FormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TipoTiendaFormaPago_EPK_TipoTiendaFormaPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Funcionalidad_EPK_GrupoFuncionalidad" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Funcionalidad_EPK_TipoFuncionalidad" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Referencia_EPK_Genero" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Referencia_EPK_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TemporadaGrupo_EPK_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_GrupoZona_EPK_RegionUbicacion1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TerminalGrupo_EPK_GrupoZona" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaDetalle_EPK_HistoricoFacturaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaEncabezado_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaEncabezado_EPK_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaPago_EPK_HistoricoFacturaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoNotaCreditoEncabezado_EPK_HistoricoFacturaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaPago_EPK_POS" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoNotaCreditoEsperaDetalle_EPK_HistoricoNotaCreditoEsperaEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoNotaCreditoEncabezado_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoNotaCreditoEncabezado_EPK_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Insumos_EPK_TipoInsumo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Lecturas_EPK_Terminal" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Organizacion_EPK_Lenguaje" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Localidad_EPK_RegionUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_LogActualizacion_EPK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_MensajeTerminal_EPK_Mensaje" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Modulo_EPK_PrioridadModulo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Objeto_EPK_Modulo" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Perfil_EPK_NivelPerfil" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoDetalle_EPK_NotaCreditoEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoDetalle_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEncabezado_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ObjetoAccion_EPK_Objeto" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ObjetoEstatus_EPK_Objeto" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_PerfilObjetos_EPK_Objeto" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Organizacion_EPK_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Tienda_EPK_Organizacion1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Region_EPK_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_RegionPais_EPK_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_PerfilAccion_EPK_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_PerfilObjetos_EPK_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_SeguridadPlantillaApp_EPK_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_UsuarioAppSEGAN_EPK_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_POSTienda_EPK_POS" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_POSTienda_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Referencia_EPK_Tema" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_RegionUbicacion_EPK_TipoRegion" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Zonas_EPK_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_SeguridadPlantillaApp_EPK_SeguridadPlantilla" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Temporada_EPK_TipoTemporada" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TemporadaGrupo_EPK_Temporada" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TerminalGrupo_EPK_Terminal" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Tienda_EPK_TipoTienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TiendaTelefono_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_UsuarioTienda_EPK_Tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_TipoTiendaFormaPago_EPK_TipoTienda" ManuallyRouted="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_UsuarioAppSEGAN_EPK_UsuarioSEGAN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FlujoEfectivo" Width="1.5" PointX="6.75" PointY="10.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_FlujoEfectivoDetalle" Width="1.5" PointX="15" PointY="15" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CambioEfectivo_EPK_Caja" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CambioEfectivoDetalle_EPK_Denominacion" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CambioEfectivo_EPK_Usuario" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CambioEfectivoDetalle_EPK_CambioEfectivo" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_NotaCreditoEsperaDetalle" Width="1.5" PointX="26.75" PointY="16.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_NotaCreditoEsperaEncabezado" Width="1.5" PointX="24.5" PointY="20.625" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaEncabezado_EPK_FacturaEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaEncabezado_EPK_FacturaEncabezado1" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaEncabezado_EPK_NotaCreditoEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaDetalle_EPK_NotaCreditoEsperaEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaDetalle_EPK_Tienda" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ClienteCompra" Width="1.5" PointX="19.625" PointY="28.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_Articulo" Width="1.5" PointX="17.75" PointY="9.625" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ActualizacionDetalle_EPK_Articulo1" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Articulo_EPK_Color" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Articulo_EPK_Referencia" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Articulo_EPK_Talla" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ClienteCompra_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaDetalle_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_FacturaEsperaDetalle_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoFacturaDetalle_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoNotaCreditoDetalle_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoDetalle_EPK_Articulo" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_NotaCreditoEsperaDetalle_EPK_Articulo" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_TipoPrenda" Width="1.5" PointX="10.5" PointY="36.375" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_Grupo_EPK_TipoPrenda" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_ActualizacionColeccion" Width="1.5" PointX="18.125" PointY="11.375" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ActualizacionColeccion_EPK_ActualizacionEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_ActualizacionColeccion_EPK_Coleccion" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_DepositoEncabezado" Width="1.5" PointX="23" PointY="25.75" IsExpanded="true" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoCheque_EPK_DepositoEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoDetalle_EPK_DepositoEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoEncabezado_EPK_EntidadFinanciera" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoEncabezado_EPK_Tienda" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoEncabezado_EPK_Usuario" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_DepositoEncabezado_EPK_Usuario1" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_HistoricoContingencia" Width="1.5" PointX="3.75" PointY="33.125" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_HistoricoContingencia_EPK_Caja" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_CierreMaquinaFiscal" Width="1.5" PointX="6.75" PointY="36" IsExpanded="true" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_CierreMaquinaFiscal_EPK_Dispositivo" />
+        <EntityTypeShape EntityType="SEGANPOSModel.EPK_VentasVolumen" Width="1.5" PointX="24.25" PointY="16.875" IsExpanded="false" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_VentasVolumen_EPK_FacturaEncabezado" />
+        <AssociationConnector Association="SEGANPOSModel.FK_EPK_VentasVolumen_EPK_Usuario" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

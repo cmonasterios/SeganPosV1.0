@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MsgNuevoPassDiferente" xml:space="preserve">
+    <value>El nuevo password debe ser diferente al anterior</value>
+  </data>
+  <data name="ValIngreseUsuario" xml:space="preserve">
+    <value>Ingrese el usuario</value>
+  </data>
+  <data name="MsgReporteReporteZAutomatico" xml:space="preserve">
+    <value>Cierre de Reporte Z fue realizado exitosamente</value>
+  </data>
+  <data name="MsgErrorGenComp" xml:space="preserve">
+    <value>Error al generar el comprobante</value>
+  </data>
+  <data name="MsgArticuloInactivo" xml:space="preserve">
+    <value>Artículo inhabilitado para facturar, por favor contacte al personal de Soporte TIC</value>
+  </data>
+  <data name="MsgDepCreado" xml:space="preserve">
+    <value>Depósito creado con éxito</value>
+  </data>
+  <data name="TipSelVendedor" xml:space="preserve">
+    <value>Seleccionar Vendedor (F7)</value>
+  </data>
+  <data name="ValSelFormaPago" xml:space="preserve">
+    <value>Seleccione la forma de pago</value>
+  </data>
+  <data name="ErrorCargarNCs" xml:space="preserve">
+    <value>Error al cargar las Notas de Crédito</value>
+  </data>
+  <data name="ValCargarImagen" xml:space="preserve">
+    <value>Debe cargar la imagen</value>
+  </data>
+  <data name="MsgAutorizarCancel" xml:space="preserve">
+    <value>¿ Autorizar la cancelación de la factura ?</value>
+  </data>
+  <data name="MsgDifCierreCaj" xml:space="preserve">
+    <value>Existe diferencia entre los montos del sistema y los reportados ¿Desea continuar?</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="imagennodisp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagennodisp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventasdia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventasdia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgReporteZDelDía" xml:space="preserve">
+    <value>Ya existe un reporte Z el día de hoy, ¿Desea generar un nuevo reporte Z?</value>
+  </data>
+  <data name="MsgFacEsperaCancel" xml:space="preserve">
+    <value>Se requiere autorización para cancelar las facturas en espera</value>
+  </data>
+  <data name="carrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorParamCont" xml:space="preserve">
+    <value>Error al completar la activación de la contingencia</value>
+  </data>
+  <data name="MsgConfirmarSalir" xml:space="preserve">
+    <value>¿ Desea salir del sistema ?</value>
+  </data>
+  <data name="MsgCambioMax" xml:space="preserve">
+    <value>El cambio no debe exceder {0}</value>
+  </data>
+  <data name="cancelada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegEncontrados" xml:space="preserve">
+    <value>{0} registros encontrados.</value>
+  </data>
+  <data name="ErrorConexDB" xml:space="preserve">
+    <value>Error de conexion con la DB {0}</value>
+  </data>
+  <data name="MsgAutorizarAnul" xml:space="preserve">
+    <value>Se requiere autorización para anular el comprobante</value>
+  </data>
+  <data name="MsgErrorGenNC" xml:space="preserve">
+    <value>Error al generar la nota de crédito</value>
+  </data>
+  <data name="cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutorizarEliminacion" xml:space="preserve">
+    <value>¿ Eliminar artículos ?</value>
+  </data>
+  <data name="MsgCierreCajPendAli" xml:space="preserve">
+    <value>No puede realizar un alivio debido a que tiene cierres pendientes</value>
+  </data>
+  <data name="epklogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\epklogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agregar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agregar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngreseDirecc" xml:space="preserve">
+    <value>Ingrese la dirección</value>
+  </data>
+  <data name="MsgExitoCierre" xml:space="preserve">
+    <value>Se realizó con éxito el cierre</value>
+  </data>
+  <data name="reimprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reimprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorActConfig" xml:space="preserve">
+    <value>Error al actualizar la configuración</value>
+  </data>
+  <data name="MsgSinApertura" xml:space="preserve">
+    <value>No tiene una apertura de caja pendiente por cerrar</value>
+  </data>
+  <data name="MsgAutorizarDescuento" xml:space="preserve">
+    <value>¿ Autorizar descuento ?</value>
+  </data>
+  <data name="MsgErrorAut" xml:space="preserve">
+    <value>Nombre de usuario o contraseña incorrecto.</value>
+  </data>
+  <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValSelResp" xml:space="preserve">
+    <value>Seleccione el usuario responsable del conteo</value>
+  </data>
+  <data name="MsgErrorConexPrinc" xml:space="preserve">
+    <value>No es posible desactivar la contingencia, ya que la conexión con la DB principal no está activa.</value>
+  </data>
+  <data name="ErrorActDep" xml:space="preserve">
+    <value>Se produjo un error al actualizar el depósito</value>
+  </data>
+  <data name="buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ejecutar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ejecutar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgCodigoArtNoEnc" xml:space="preserve">
+    <value>No se encontró el código.</value>
+  </data>
+  <data name="MsgErrorCMFDia" xml:space="preserve">
+    <value>Ya existe un cierre de máquina fiscal para la fecha seleccionada</value>
+  </data>
+  <data name="MsgReporteReporteZNOAutomatico" xml:space="preserve">
+    <value>No existe Reporte Z automático pendiente</value>
+  </data>
+  <data name="MsgConfDatos" xml:space="preserve">
+    <value>¿Está seguro que los datos ingresados son correctos?</value>
+  </data>
+  <data name="ValIngreseNombre" xml:space="preserve">
+    <value>Ingrese el nombre</value>
+  </data>
+  <data name="consultarexistencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultarexistencia1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorDeposito" xml:space="preserve">
+    <value>Se produjo un error creando el depósito</value>
+  </data>
+  <data name="MsgMontoMax" xml:space="preserve">
+    <value>El monto no debe exceder {0}</value>
+  </data>
+  <data name="MsgCajaYaAbierta" xml:space="preserve">
+    <value>No puede realizar la apertura debido a que ya la realizó previamente</value>
+  </data>
+  <data name="MsgAutoLimiteDescuento" xml:space="preserve">
+    <value>El monto de la factura excede el límite permitido ({0}) para el descuento. ¿ Desea autorizar esta operación ?</value>
+  </data>
+  <data name="MsgConfirmarZ" xml:space="preserve">
+    <value>Se generará el reporte Z del día, ¿ Desea Continuar ?</value>
+  </data>
+  <data name="ValIngreseObs" xml:space="preserve">
+    <value>Debe llenar las observaciones</value>
+  </data>
+  <data name="MsgErrorLogin" xml:space="preserve">
+    <value>Error al accesar a la aplicación</value>
+  </data>
+  <data name="notadecredito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notadecredito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorSinFact" xml:space="preserve">
+    <value>La impresora no tiene facturación para la fecha seleccionada</value>
+  </data>
+  <data name="MsgDifCierreVen" xml:space="preserve">
+    <value>Existe una diferencia entre los montos de sistema y los reportados. Por favor indique el motivo en el campo Observaciones.</value>
+  </data>
+  <data name="TipCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="MsgAlivioSinEfectivo" xml:space="preserve">
+    <value>No puede realizar un alivio debido a que no tiene ventas en efectivo</value>
+  </data>
+  <data name="ExitoIngresoEfectivo" xml:space="preserve">
+    <value>Ingreso de efectivo registrado exitosamente</value>
+  </data>
+  <data name="cambioefectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cambioefectivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reposisionarticulos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reposisionarticulos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorDesbloq" xml:space="preserve">
+    <value>Error al desbloquear el usuario</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgConfApAlivio" xml:space="preserve">
+    <value>El alivio reportado por el Cajero {0} es de {1:C2} y el monto aprobado por usted es de {2:C2}. ¿Está seguro que desea aprobar este alivio de efectivo?</value>
+  </data>
+  <data name="view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorCierreMF" xml:space="preserve">
+    <value>Se produjo un error al generar el cierre de máquina fiscal</value>
+  </data>
+  <data name="ValSelEsquema" xml:space="preserve">
+    <value>Debe seleccionar el esquema</value>
+  </data>
+  <data name="BematechRetorno" xml:space="preserve">
+    <value>RETORNO.TXT</value>
+  </data>
+  <data name="MsgLoginOtraCaja" xml:space="preserve">
+    <value>No puede ingresar a la aplicación debido a que tiene una sesión abierta en la caja {0}</value>
+  </data>
+  <data name="MsgCierreCajPend" xml:space="preserve">
+    <value>Debe completar los cierres pendientes antes de iniciar la facturación</value>
+  </data>
+  <data name="MsgErrorReseed" xml:space="preserve">
+    <value>Error al asignar el número de {0}</value>
+  </data>
+  <data name="MsgMaxApertura" xml:space="preserve">
+    <value>El monto de apertura no debe exceder {0:C2}</value>
+  </data>
+  <data name="pedidosugerido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pedidosugerido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgConfirmSolNC" xml:space="preserve">
+    <value>Se creará una Solicitud de Nota de Crédito para la factura actual. ¿ Está seguro ?</value>
+  </data>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TipVerFoto" xml:space="preserve">
+    <value>Ver Foto</value>
+  </data>
+  <data name="attach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgSucessZ" xml:space="preserve">
+    <value>Reporte Z generado con éxito</value>
+  </data>
+  <data name="ValMinCar" xml:space="preserve">
+    <value>Debe ingresar un mínimo de {0} caracteres</value>
+  </data>
+  <data name="ValMontoCierre" xml:space="preserve">
+    <value>El monto del cierre debe mayor que cero</value>
+  </data>
+  <data name="MsgConfirmarX" xml:space="preserve">
+    <value>Se generará un nuevo reporte X, ¿ Desea Continuar ?</value>
+  </data>
+  <data name="ValRepitaNuevoPass" xml:space="preserve">
+    <value>Repita la nueva clave</value>
+  </data>
+  <data name="MsgAutorizarDevolucion" xml:space="preserve">
+    <value>¿ Autorizar la devolución ?</value>
+  </data>
+  <data name="vendedor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vendedor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgConfAct" xml:space="preserve">
+    <value>Configuración actualizada exitosamente</value>
+  </data>
+  <data name="MsgErrorComImp" xml:space="preserve">
+    <value>Error de Comunicación con impresora fiscal</value>
+  </data>
+  <data name="ErrorCambioEfectivo" xml:space="preserve">
+    <value>Se produjo un error generando el cambio de efectivo</value>
+  </data>
+  <data name="menureportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menureportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgPregCierreVentas" xml:space="preserve">
+    <value>¿ Desea realizar el Cierre de Ventas ?</value>
+  </data>
+  <data name="fincontingencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fincontingencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cambiarusuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cambiarusuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgExitoDesbloq" xml:space="preserve">
+    <value>Usuario desbloqueado exitosamente</value>
+  </data>
+  <data name="ValImagenTicket" xml:space="preserve">
+    <value>Debe ingresar la imagen del ticket fiscal</value>
+  </data>
+  <data name="abrir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abrir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValMotivoSolNC" xml:space="preserve">
+    <value>Debe ingresar el motivo de Solicitud de Nota de Crédito</value>
+  </data>
+  <data name="ValIngreseRazonSoc" xml:space="preserve">
+    <value>Ingrese la razón social</value>
+  </data>
+  <data name="MsgAutorizarMF" xml:space="preserve">
+    <value>Ingrese las credenciales del personal autorizado</value>
+  </data>
+  <data name="ValFactSust" xml:space="preserve">
+    <value>Debe seleccionar la factura sustituta</value>
+  </data>
+  <data name="consultarfactura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultarfactura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorAlivio" xml:space="preserve">
+    <value>Se produjo un error creando el alivio de efectivo</value>
+  </data>
+  <data name="ValSelBanco" xml:space="preserve">
+    <value>Seleccione el banco</value>
+  </data>
+  <data name="continuar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\continuar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutorizarSelVendedor" xml:space="preserve">
+    <value>¿ Autorizar selección de vendedor ?</value>
+  </data>
+  <data name="MsgValidacionRango" xml:space="preserve">
+    <value>Número Z desde debe ser menor que número Z hasta</value>
+  </data>
+  <data name="MsgAutorizarCambioCant" xml:space="preserve">
+    <value>¿ Autorizar la modificación de la cantidad de artículos ?</value>
+  </data>
+  <data name="MsgValidacionFecha" xml:space="preserve">
+    <value>Fecha desde debe ser menor o igual a fecha hasta</value>
+  </data>
+  <data name="TipBuscarArt" xml:space="preserve">
+    <value>Buscador de Artículos</value>
+  </data>
+  <data name="TipSalir" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="MsgSucessX" xml:space="preserve">
+    <value>Reporte X generado con éxito</value>
+  </data>
+  <data name="MsgUsuarioNoExiste" xml:space="preserve">
+    <value>Usuario '{0}' no encontrado</value>
+  </data>
+  <data name="ErrorCargaTienda" xml:space="preserve">
+    <value>Error al cargar los datos de la tienda</value>
+  </data>
+  <data name="MsgAutDifCierreCaja_CierreMF" xml:space="preserve">
+    <value>Existen diferencias entre los montos del sistema y los reportados ¿Desea autorizar el Cierre de Cajero y el Cierre de Caja (Reporte Z)?</value>
+  </data>
+  <data name="MsgCodigoArtInac" xml:space="preserve">
+    <value>El código del artículo está inhabilitado, verifique por favor.</value>
+  </data>
+  <data name="MsgPregCierreCajero" xml:space="preserve">
+    <value>¿ Desea realizar el Cierre de Cajero ?</value>
+  </data>
+  <data name="ValClaveNoLogin" xml:space="preserve">
+    <value>La clave no debe contener su login</value>
+  </data>
+  <data name="MsgImpNoResp" xml:space="preserve">
+    <value>La impresora no responde. ¿Desea reintentar?</value>
+  </data>
+  <data name="ValSelBancoEm" xml:space="preserve">
+    <value>Seleccione el banco emisor</value>
+  </data>
+  <data name="ventasporarticulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventasporarticulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menuefectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuefectivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorSinImpresora" xml:space="preserve">
+    <value>No tiene registro de impresora asociado, no es posible ingresar al sistema</value>
+  </data>
+  <data name="ValLoteReq" xml:space="preserve">
+    <value>El Nro. de Lote es requerido para las formas de pago Débito y Crédito</value>
+  </data>
+  <data name="MsgTieneFacEspera" xml:space="preserve">
+    <value>Finalizaron los primeros cinco (5) minutos en espera, ¿Desea recuperar la factura?</value>
+  </data>
+  <data name="ValMontoReq" xml:space="preserve">
+    <value>Debe indicar el Monto de las transacciones</value>
+  </data>
+  <data name="separador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\separador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorCargaInicial" xml:space="preserve">
+    <value>Error al cargar los parámetros de la aplicación</value>
+  </data>
+  <data name="refrescar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgDepAct" xml:space="preserve">
+    <value>Depósito actualizado correctamente</value>
+  </data>
+  <data name="MsgAliviosPendientes" xml:space="preserve">
+    <value>No es posible realizar el cierre de ventas debido a que tiene alivios de efectivo pendientes por aprobar</value>
+  </data>
+  <data name="ValClaveCompleja" xml:space="preserve">
+    <value>La clave debe ser de al menos 6 caracteres y contener letras y números</value>
+  </data>
+  <data name="ExitoSolNC" xml:space="preserve">
+    <value>Solicitud de Nota de Crédito #{0} generada con éxito</value>
+  </data>
+  <data name="imprimiendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imprimiendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoEPKpeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoEPKpeq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValSelBancoPOS" xml:space="preserve">
+    <value>Seleccione el banco del POS</value>
+  </data>
+  <data name="progreso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progreso.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainname" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainname.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngreseEmail" xml:space="preserve">
+    <value>Ingrese el email</value>
+  </data>
+  <data name="separadorh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\separadorh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutoCierreCero" xml:space="preserve">
+    <value>¿Desea autorizar el cierre de cajero con monto 0 (cero) ?</value>
+  </data>
+  <data name="TipBuscarCliente" xml:space="preserve">
+    <value>Buscar Cliente (F2)</value>
+  </data>
+  <data name="MsgExitoDesbloqClave" xml:space="preserve">
+    <value>Usuario desbloqueado exitosamente. Se le cambió la clave a: {0}</value>
+  </data>
+  <data name="MsgClaveIncorrecta" xml:space="preserve">
+    <value>Usuario {0}: clave incorrecta</value>
+  </data>
+  <data name="MsgConfirmSolNCNoSust" xml:space="preserve">
+    <value>Se creará una Solicitud de Nota de Crédito para la factura actual sin factura sustituta. ¿ Desea continuar ?</value>
+  </data>
+  <data name="MsgFacEsperaExp" xml:space="preserve">
+    <value>Finalizó el tiempo de espera de la factura Nº {0}. Se procederá a cancelar la factura.</value>
+  </data>
+  <data name="bloquear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bloquear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IndContingencia" xml:space="preserve">
+    <value>* CONTINGENCIA *</value>
+  </data>
+  <data name="ExitoExpoRepoArt" xml:space="preserve">
+    <value>Reposición de Artículos exportada existosamente</value>
+  </data>
+  <data name="MsgNoEsAutorizador" xml:space="preserve">
+    <value>El usuario {0} no tiene permiso para autorizar la acción.</value>
+  </data>
+  <data name="eliminar_peq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eliminar_peq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngresePassActual" xml:space="preserve">
+    <value>Ingrese la clave actual</value>
+  </data>
+  <data name="ValIngreseValor" xml:space="preserve">
+    <value>Debe ingresar el valor</value>
+  </data>
+  <data name="aceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aceptar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgUsuarioBloqueado" xml:space="preserve">
+    <value>Usuario {0} bloqueado</value>
+  </data>
+  <data name="procesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\procesar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgRecordDep" xml:space="preserve">
+    <value>Recuerde que debe haber aprobado los alivios de efectivo para poder contabilizar las cantidades de billetes en los depósitos</value>
+  </data>
+  <data name="attachpeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attachpeq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValSelPOS" xml:space="preserve">
+    <value>Seleccione el POS</value>
+  </data>
+  <data name="MsgConfirmNotaC" xml:space="preserve">
+    <value>Se creará una nota de crédito para la factura actual. ¿ Está seguro ?</value>
+  </data>
+  <data name="ValIngreseMonto" xml:space="preserve">
+    <value>Ingrese el monto</value>
+  </data>
+  <data name="ErrorIngresoEfectivo" xml:space="preserve">
+    <value>Se produjo un error generando el ingreso de efectivo</value>
+  </data>
+  <data name="ErrorNadaDep" xml:space="preserve">
+    <value>No existe efectivo remanente o cheques por depositar</value>
+  </data>
+  <data name="MsgErrorCierreCajero" xml:space="preserve">
+    <value>Se produjo un error creando el cierre del cajero</value>
+  </data>
+  <data name="TipCalc" xml:space="preserve">
+    <value>Calculadora</value>
+  </data>
+  <data name="borrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\borrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAliviosPendCajero" xml:space="preserve">
+    <value>Tiene alivios de efectivo pendientes por aprobar. ¿Desea aprobar el cierre de cajero?</value>
+  </data>
+  <data name="ErrorSinAcceso" xml:space="preserve">
+    <value>No puede acceder a esta función, por favor notifique a Soporte Técnico</value>
+  </data>
+  <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BematechINI" xml:space="preserve">
+    <value>BemaFI{0}.ini</value>
+  </data>
+  <data name="MsgSucessZMensual" xml:space="preserve">
+    <value>Reporte mensual consolidado generado con éxito</value>
+  </data>
+  <data name="MsgErrorInfoComp" xml:space="preserve">
+    <value>Error al obtener información del comprobante</value>
+  </data>
+  <data name="ExitoCambioEfectivo" xml:space="preserve">
+    <value>Cambio de efectivo registrado exitosamente</value>
+  </data>
+  <data name="MsgAlivio" xml:space="preserve">
+    <value>Ha superado el monto establecido en caja, debe realizar el alivio de efectivo.</value>
+  </data>
+  <data name="ValMontoNoVal" xml:space="preserve">
+    <value>El monto no es válido</value>
+  </data>
+  <data name="salir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgSucessZRango" xml:space="preserve">
+    <value>Reportes de Z por rangos generado con éxito</value>
+  </data>
+  <data name="cambiarclave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cambiarclave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngreseDoc" xml:space="preserve">
+    <value>Ingrese el documento</value>
+  </data>
+  <data name="warning32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgApeExito" xml:space="preserve">
+    <value>Apertura de cajero realizada con éxito</value>
+  </data>
+  <data name="ExitoExpoFacturas" xml:space="preserve">
+    <value>Facturas exportadas exitosamente</value>
+  </data>
+  <data name="ErrorCargaFacturacion" xml:space="preserve">
+    <value>Error al cargar los parámetros de facturación</value>
+  </data>
+  <data name="calculadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorCambioPass" xml:space="preserve">
+    <value>Error al cambiar la clave</value>
+  </data>
+  <data name="MsgErrorCierreVentas" xml:space="preserve">
+    <value>Se produjo un error creando el cierre de ventas</value>
+  </data>
+  <data name="MsgNCPend" xml:space="preserve">
+    <value>Tiene Notas de Crédito pendientes, ¿Desea imprimirlas?</value>
+  </data>
+  <data name="agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agregar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValNumDep" xml:space="preserve">
+    <value>Debe indicar el número de depósito</value>
+  </data>
+  <data name="MsgCierresCajPend" xml:space="preserve">
+    <value>Existen Cierres de Cajeros pendientes por efectuarse, verifique por favor</value>
+  </data>
+  <data name="MsgAutorizarFPago" xml:space="preserve">
+    <value>Se requiere autorización para utilizar esta forma de pago</value>
+  </data>
+  <data name="MsgErrorSinCaja" xml:space="preserve">
+    <value>No tiene registro de caja asociado, no es posible ingresar al sistema</value>
+  </data>
+  <data name="MsgPassActual" xml:space="preserve">
+    <value>La clave actual es incorrecta</value>
+  </data>
+  <data name="MsgSucessZDetallado" xml:space="preserve">
+    <value>Reporte mensual detallado generado con éxito</value>
+  </data>
+  <data name="check32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngresePassword" xml:space="preserve">
+    <value>Ingrese la clave</value>
+  </data>
+  <data name="ReasonLocked" xml:space="preserve">
+    <value>Excedio el maximo de intentos</value>
+  </data>
+  <data name="refrescarpeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescarpeq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngreseNuevoPass" xml:space="preserve">
+    <value>Ingrese la nueva clave</value>
+  </data>
+  <data name="cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutorizarDesbloq" xml:space="preserve">
+    <value>¿ Desea efectura el cierre de cajero y terminar la sesión del usuario {0} ?</value>
+  </data>
+  <data name="MsgExitoCierreVentas" xml:space="preserve">
+    <value>Se realizó con éxito el cierre de ventas</value>
+  </data>
+  <data name="maincopy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maincopy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReporteZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReporteZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorFinCont" xml:space="preserve">
+    <value>Error al realizar la desactivación de la contingencia.</value>
+  </data>
+  <data name="ValIngreseNumeroODoc" xml:space="preserve">
+    <value>Debe ingresar un número de factura o de documento del cliente</value>
+  </data>
+  <data name="espera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\espera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgCierreVentaExiste" xml:space="preserve">
+    <value>El cierre de ventas ya fué efectuado para el día actual. No puede accesar a esta función</value>
+  </data>
+  <data name="ValNuevoPassNoMatch" xml:space="preserve">
+    <value>La nueva clave no coincide</value>
+  </data>
+  <data name="Facturas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\facturas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutorizarCont" xml:space="preserve">
+    <value>Contingencia activada. Se requiere autorización para continuar</value>
+  </data>
+  <data name="editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIngreseApellido" xml:space="preserve">
+    <value>Ingrese el apellido</value>
+  </data>
+  <data name="ValNumComp" xml:space="preserve">
+    <value>Debe indicar el número de comprobante</value>
+  </data>
+  <data name="MsgAutDifCierreCaj" xml:space="preserve">
+    <value>Existe diferencia entre los montos del sistema y los reportados ¿Desea autorizar el cierre de cajero?</value>
+  </data>
+  <data name="MsgPregCierreCaja" xml:space="preserve">
+    <value>¿Desea realizar el Cierre de Cajero y Cierre de Caja (Reporte Z)?</value>
+  </data>
+  <data name="descuento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descuento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorCrearComp" xml:space="preserve">
+    <value>Error al crear el comprobante</value>
+  </data>
+  <data name="MsgCuponAnulado" xml:space="preserve">
+    <value>Cupón #{0} anulado. Impresora lista para emitir nuevos tickets</value>
+  </data>
+  <data name="ingresoefectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingresoefectivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultarcierredeventas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultarcierredeventas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TipBloquear" xml:space="preserve">
+    <value>Bloquear sesión (F6)</value>
+  </data>
+  <data name="ValNumeroReseed" xml:space="preserve">
+    <value>El número de {0} no debe ser menor al actual ({1})</value>
+  </data>
+  <data name="MsgAutorizarAlivio" xml:space="preserve">
+    <value>¿ Desea autorizar el alivio de efectivo ?</value>
+  </data>
+  <data name="MsgCambioClaveExitoso" xml:space="preserve">
+    <value>Cambio de clave efectuado</value>
+  </data>
+  <data name="ValRangoLote" xml:space="preserve">
+    <value>El Nro. de Lote debe estar entre {0} y {1}</value>
+  </data>
+  <data name="MsgCierreCajFondo" xml:space="preserve">
+    <value>Recuerde registrar el monto del fondo de caja</value>
+  </data>
+  <data name="ValNumEnvase" xml:space="preserve">
+    <value>Debe indicar el número del envase</value>
+  </data>
+  <data name="buscarpeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscarpeq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgAutNC" xml:space="preserve">
+    <value>¿ Autorizar la impresión de las Notas de Crédito ?</value>
+  </data>
+  <data name="siguienteenespera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siguienteenespera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viewpeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viewpeq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgImpCancel" xml:space="preserve">
+    <value>Impresión de factura cancelada</value>
+  </data>
+  <data name="advertencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advertencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgUsuarioNoApp" xml:space="preserve">
+    <value>El usuario {0} ({1}) no tiene acceso a la aplicacion</value>
+  </data>
+  <data name="ErrorGenSolNC" xml:space="preserve">
+    <value>Error al crear la Solicitud de Nota de Crédito</value>
+  </data>
+  <data name="MsgAutCierreCaja" xml:space="preserve">
+    <value>¿ Desea autorizar el cierre de caja ?</value>
+  </data>
+  <data name="MsgAproAliCero" xml:space="preserve">
+    <value>Tiene cantidades aprobadas en cero (0) ¿ Desea continuar ?</value>
+  </data>
+  <data name="coronaepk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coronaEPK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgSinLectura" xml:space="preserve">
+    <value>El usuario {0} ({1}) no ha registrado su entrada en el biométrico</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogAbortarCierre" xml:space="preserve">
+    <value>Interrupción de la generación del reporte Z autorizada por {0} ({1}).</value>
+  </data>
+  <data name="MsgAbortarCierre" xml:space="preserve">
+    <value>Se requiere autorización para interrumpir la generación del reporte Z.</value>
+  </data>
+  <data name="ErrorVisor" xml:space="preserve">
+    <value>Error al iniciar el visor</value>
+  </data>
+  <data name="ErrorDatosCierre" xml:space="preserve">
+    <value>Error al obtener los datos del cierre</value>
+  </data>
+  <data name="ValIngrese1Crit" xml:space="preserve">
+    <value>Debe ingresar al menos uno de los criterios marcados</value>
+  </data>
+  <data name="ValRef4" xml:space="preserve">
+    <value>Debe ingresar al menos 4 caracteres de la referencia</value>
+  </data>
+  <data name="ValSelColec" xml:space="preserve">
+    <value>Debe seleccionar una colección</value>
+  </data>
+  <data name="MsgPagoMayorFactura" xml:space="preserve">
+    <value>El pago recibido supera al monto total de la factura, verifique por favor</value>
+  </data>
+  <data name="TipAgregarFP" xml:space="preserve">
+    <value>Agregar forma de pago</value>
+  </data>
+  <data name="Amarillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amarillo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rojo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgArticuloBloqueado" xml:space="preserve">
+    <value>La cantidad ({0}) del artículo {1} no está permitida temporalmente para la venta.</value>
+  </data>
+  <data name="MsgMaximoArticulos" xml:space="preserve">
+    <value>El Cliente: {0} ha comprado {1} pieza(s) del artículo(s) {2} en la semana, solo podrá comprar {3} pieza(s).</value>
+  </data>
+  <data name="MsgMaximoArticulosPreg" xml:space="preserve">
+    <value>El Cliente: {0} ha superado la compra máxima ({1}) permitida del artículo ({2}). ¿Desea realizar una devolución?.</value>
+  </data>
+  <data name="MsgMaximoPiezas" xml:space="preserve">
+    <value>El cliente: {0}, ha superado el máximo de {1} piezas semanales permitidas para la venta.</value>
+  </data>
+  <data name="MsgErrorCargarBiometrico" xml:space="preserve">
+    <value>Error al cargar Biométrico, comuníquese con Soporte Técnico.</value>
+  </data>
+  <data name="MsgMaxCantidadArt" xml:space="preserve">
+    <value>La cantidad ingresada ({0}) del artículo {1}, ha superado la compra máxima ({2}) permitida.</value>
+  </data>
+  <data name="MsgMaximoPiezasPreg" xml:space="preserve">
+    <value>El cliente: {0}, ha superado el máximo de {1} piezas semanales permitidas para la venta. ¿Desea realizar una devolución?.</value>
+  </data>
+  <data name="MsgMaxDevoluciones" xml:space="preserve">
+    <value>El Cliente: {0} ha superado la cantidad máxima de devoluciones permitidas.</value>
+  </data>
+  <data name="MsgMaxArtCancel" xml:space="preserve">
+    <value>Se ha excedido el límite máximo de {0} piezas semanales permitidas para la venta. La factura será Cancelada.</value>
+  </data>
+  <data name="ValArtExcento" xml:space="preserve">
+    <value>No puede devolver un artículo que sea exento</value>
+  </data>
+  <data name="MsgFacturaMayorPago" xml:space="preserve">
+    <value>El monto total de factura supera al pago recibido, verifique por favor</value>
+  </data>
+  <data name="ErrorEliminarArt" xml:space="preserve">
+    <value>Se produjo un error al eliminar articulos en {0}</value>
+  </data>
+  <data name="ErrorTiendaImpGen" xml:space="preserve">
+    <value>Error al configurar Impuestos de Tienda</value>
+  </data>
+  <data name="ErrorTiendaImpNA" xml:space="preserve">
+    <value>Error de configuración, La tienda no aplica impuesto pero tiene IVA</value>
+  </data>
+  <data name="ErrorTiendaIvaInv" xml:space="preserve">
+    <value>Error de configuración, El parámetro IVA tiene un valor incorrecto.</value>
+  </data>
+  <data name="ErrorTiendaSinIva" xml:space="preserve">
+    <value>Error de configuración, no tiene parámetro IVA configurado</value>
+  </data>
+  <data name="MsgPregDesbloqueoCliente" xml:space="preserve">
+    <value>¿Desea desbloquear la restrición de compras al mayor para el cliente:  {0}?</value>
+  </data>
+  <data name="MsgPregCierreMF" xml:space="preserve">
+    <value>¿Desea realizar el Cierre de Máquina Fiscal?</value>
+  </data>
+  <data name="UserUnlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorAddArt" xml:space="preserve">
+    <value>Se produjo un error al cargar el artículo</value>
+  </data>
+  <data name="UserLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgErrorValArt" xml:space="preserve">
+    <value>Error al validar el artículo</value>
+  </data>
+  <data name="ValNotaConDev" xml:space="preserve">
+    <value>Para facturas con devoluciones solo se permiten solicitudes de Notas de Crédito totales</value>
+  </data>
+  <data name="MsgAutorizarCierreCaja" xml:space="preserve">
+    <value>¿Desea visualizar la información oculta?</value>
+  </data>
+  <data name="MsgAutorizarDifCierreCierrecaja" xml:space="preserve">
+    <value>¿Está seguro que desea autorizar el Cierre de Cajero?</value>
+  </data>
+  <data name="MsgAutorizarDifCierreCierrecajaRepZ" xml:space="preserve">
+    <value>¿Desea autorizar el Cierre de Cajero y el Cierre de Caja (Reporte Z)?</value>
+  </data>
+  <data name="ErrorCierreMFExiste" xml:space="preserve">
+    <value>Este Cierre de Máquina Fiscal ya ha sido registrado</value>
+  </data>
+  <data name="NoExisteAperturaCaja" xml:space="preserve">
+    <value>No puede realizar el cierre debido a que no realizó la apertura</value>
+  </data>
+  <data name="MsgArticuloNoFacturable" xml:space="preserve">
+    <value>El artículo {0} no se puede facturar, su precio debe ser mayor a cero (0) BsF, por favor contacte al personal de Soporte TIC</value>
+  </data>
+</root>

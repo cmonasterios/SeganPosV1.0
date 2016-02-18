@@ -1,0 +1,5 @@
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DisplayManager\bin\Release\DisplayManager.XML
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DisplayManager\bin\Release\DisplayManager.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DisplayManager\bin\Release\DisplayManager.pdb
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DisplayManager\obj\Release\DisplayManager.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DisplayManager\obj\Release\DisplayManager.pdb

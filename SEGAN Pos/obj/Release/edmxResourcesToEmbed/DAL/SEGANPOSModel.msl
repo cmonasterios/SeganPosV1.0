@@ -1,0 +1,2498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EPKSystemPOSModelStoreContainer" CdmEntityContainer="SEGANPOSEntities">
+    <EntitySetMapping Name="EPK_Accion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Accion">
+        <MappingFragment StoreEntitySet="EPK_Accion">
+          <ScalarProperty Name="IdAccion" ColumnName="IdAccion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Habilitada" ColumnName="Habilitada" />
+          <ScalarProperty Name="IdUsuarioEliminacion" ColumnName="IdUsuarioEliminacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ActualizacionArticulo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ActualizacionArticulo">
+        <MappingFragment StoreEntitySet="EPK_ActualizacionArticulo">
+          <ScalarProperty Name="IdActualizacion" ColumnName="IdActualizacion" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="PrecioGravable" ColumnName="PrecioGravable" />
+          <ScalarProperty Name="PrecioExento" ColumnName="PrecioExento" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="ExistenciaAlmacen" ColumnName="ExistenciaAlmacen" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ActualizacionEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ActualizacionEncabezado">
+        <MappingFragment StoreEntitySet="EPK_ActualizacionEncabezado">
+          <ScalarProperty Name="IdActualizacion" ColumnName="IdActualizacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoActualizacion" ColumnName="TipoActualizacion" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="FechaRecepcion" ColumnName="FechaRecepcion" />
+          <ScalarProperty Name="FechaProcesamiento" ColumnName="FechaProcesamiento" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="CantidadDetalles" ColumnName="CantidadDetalles" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_AlivioEfectivoDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_AlivioEfectivoDetalle">
+        <MappingFragment StoreEntitySet="EPK_AlivioEfectivoDetalle">
+          <ScalarProperty Name="IdAlivioEfectivo" ColumnName="IdAlivioEfectivo" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="CantidadCajero" ColumnName="CantidadCajero" />
+          <ScalarProperty Name="CantidadAprobador" ColumnName="CantidadAprobador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_AlivioEfectivoEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_AlivioEfectivoEncabezado">
+        <MappingFragment StoreEntitySet="EPK_AlivioEfectivoEncabezado">
+          <ScalarProperty Name="IdAlivioEfectivo" ColumnName="IdAlivioEfectivo" />
+          <ScalarProperty Name="IdUsuarioCajero" ColumnName="IdUsuarioCajero" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="FechaAlivio" ColumnName="FechaAlivio" />
+          <ScalarProperty Name="HoraAlivio" ColumnName="HoraAlivio" />
+          <ScalarProperty Name="TotalPagosEfectivo" ColumnName="TotalPagosEfectivo" />
+          <ScalarProperty Name="TotalAlivio" ColumnName="TotalAlivio" />
+          <ScalarProperty Name="TotalAprobado" ColumnName="TotalAprobado" />
+          <ScalarProperty Name="IdMotivoDesc" ColumnName="IdMotivoDesc" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioAprobador" ColumnName="IdUsuarioAprobador" />
+          <ScalarProperty Name="FechaHoraAprobacion" ColumnName="FechaHoraAprobacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Almacen">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Almacen">
+        <MappingFragment StoreEntitySet="EPK_Almacen">
+          <ScalarProperty Name="IdAlmacen" ColumnName="IdAlmacen" />
+          <ScalarProperty Name="CodigoAlmacen" ColumnName="CodigoAlmacen" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="CodigoTienda" ColumnName="CodigoTienda" />
+          <ScalarProperty Name="IdAlmacenReposicion" ColumnName="IdAlmacenReposicion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="MinStockPieza" ColumnName="MinStockPieza" />
+          <ScalarProperty Name="FrecuenciaPedido" ColumnName="FrecuenciaPedido" />
+          <ScalarProperty Name="DiaPedido" ColumnName="DiaPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_AperturaCajeroDenominacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_AperturaCajeroDenominacion">
+        <MappingFragment StoreEntitySet="EPK_AperturaCajeroDenominacion">
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_AperturaCajeroEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_AperturaCajeroEncabezado">
+        <MappingFragment StoreEntitySet="EPK_AperturaCajeroEncabezado">
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdCajero" ColumnName="IdCajero" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_App">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_App">
+        <MappingFragment StoreEntitySet="EPK_App">
+          <ScalarProperty Name="IdApp" ColumnName="IdApp" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoAplicacion" ColumnName="TipoAplicacion" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="Filename" ColumnName="Filename" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ArticuloTienda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ArticuloTienda">
+        <MappingFragment StoreEntitySet="EPK_ArticuloTienda">
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Auditoria">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Auditoria">
+        <MappingFragment StoreEntitySet="EPK_Auditoria">
+          <ScalarProperty Name="IdAuditoria" ColumnName="IdAuditoria" />
+          <ScalarProperty Name="IdAPP" ColumnName="IdAPP" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="AccionEjecutada" ColumnName="AccionEjecutada" />
+          <ScalarProperty Name="FechaEjecucion" ColumnName="FechaEjecucion" />
+          <ScalarProperty Name="EventLevel" ColumnName="EventLevel" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="Exception" ColumnName="Exception" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Caja">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Caja">
+        <MappingFragment StoreEntitySet="EPK_Caja">
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DireccionMAC" ColumnName="DireccionMAC" />
+          <ScalarProperty Name="DireccionIP" ColumnName="DireccionIP" />
+          <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+          <ScalarProperty Name="EnDescuento" ColumnName="EnDescuento" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CajaDispositivo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CajaDispositivo">
+        <MappingFragment StoreEntitySet="EPK_CajaDispositivo">
+          <ScalarProperty Name="IdCajaDispositivo" ColumnName="IdCajaDispositivo" />
+          <ScalarProperty Name="IdDispositivo" ColumnName="IdDispositivo" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CajaDispositivoHistorico">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CajaDispositivoHistorico">
+        <MappingFragment StoreEntitySet="EPK_CajaDispositivoHistorico">
+          <ScalarProperty Name="IdCajaDispositivo" ColumnName="IdCajaDispositivo" />
+          <ScalarProperty Name="IdDispositivo" ColumnName="IdDispositivo" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="ReporteZIni" ColumnName="ReporteZIni" />
+          <ScalarProperty Name="ReporteZFin" ColumnName="ReporteZFin" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Cargo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Cargo">
+        <MappingFragment StoreEntitySet="EPK_Cargo">
+          <ScalarProperty Name="IdCargo" ColumnName="IdCargo" />
+          <ScalarProperty Name="CodCargo" ColumnName="CodCargo" />
+          <ScalarProperty Name="NombreCargo" ColumnName="NombreCargo" />
+          <ScalarProperty Name="IdNivel" ColumnName="IdNivel" />
+          <ScalarProperty Name="ComisionTotal" ColumnName="ComisionTotal" />
+          <ScalarProperty Name="PorcentajeComision" ColumnName="PorcentajeComision" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="CargoComision" ColumnName="CargoComision" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreCajeroDenominacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreCajeroDenominacion">
+        <MappingFragment StoreEntitySet="EPK_CierreCajeroDenominacion">
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreCajeroEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreCajeroEncabezado">
+        <MappingFragment StoreEntitySet="EPK_CierreCajeroEncabezado">
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdCajero" ColumnName="IdCajero" />
+          <ScalarProperty Name="TotalAlivios" ColumnName="TotalAlivios" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreCajeroPagos">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreCajeroPagos">
+        <MappingFragment StoreEntitySet="EPK_CierreCajeroPagos">
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="MontoPagos" ColumnName="MontoPagos" />
+          <ScalarProperty Name="MontoCierre" ColumnName="MontoCierre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreCajeroPOS">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreCajeroPOS">
+        <MappingFragment StoreEntitySet="EPK_CierreCajeroPOS">
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="LotePOS" ColumnName="LotePOS" />
+          <ScalarProperty Name="MontoPOS" ColumnName="MontoPOS" />
+          <ScalarProperty Name="MontoPago" ColumnName="MontoPago" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreVentaEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreVentaEncabezado">
+        <MappingFragment StoreEntitySet="EPK_CierreVentaEncabezado">
+          <ScalarProperty Name="IdCierreV" ColumnName="IdCierreV" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="MontoExento" ColumnName="MontoExento" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="TotalAlivios" ColumnName="TotalAlivios" />
+          <ScalarProperty Name="TotalAperturas" ColumnName="TotalAperturas" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreVentaPagos">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreVentaPagos">
+        <MappingFragment StoreEntitySet="EPK_CierreVentaPagos">
+          <ScalarProperty Name="IdCierreV" ColumnName="IdCierreV" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="MontoPagos" ColumnName="MontoPagos" />
+          <ScalarProperty Name="MontoCierre" ColumnName="MontoCierre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="NroControl" ColumnName="NroControl" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreVentaPOS">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreVentaPOS">
+        <MappingFragment StoreEntitySet="EPK_CierreVentaPOS">
+          <ScalarProperty Name="IdCierreV" ColumnName="IdCierreV" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="TotalDia" ColumnName="TotalDia" />
+          <ScalarProperty Name="MontoCierre" ColumnName="MontoCierre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="LotePOS" ColumnName="LotePOS" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Ciudad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Ciudad">
+        <MappingFragment StoreEntitySet="EPK_Ciudad">
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Cliente">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Cliente">
+        <MappingFragment StoreEntitySet="EPK_Cliente">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="IdEstadoNacimiento" ColumnName="IdEstadoNacimiento" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Especial" ColumnName="Especial" />
+          <ScalarProperty Name="IdTipoDescuento" ColumnName="IdTipoDescuento" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ClienteFormaPago">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ClienteFormaPago">
+        <MappingFragment StoreEntitySet="EPK_ClienteFormaPago">
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdClienteFPago" ColumnName="IdClienteFPago" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ClienteTelefono">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ClienteTelefono">
+        <MappingFragment StoreEntitySet="EPK_ClienteTelefono">
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdClienteTelefono" ColumnName="IdClienteTelefono" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="TipoTelefono" ColumnName="TipoTelefono" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Coleccion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Coleccion">
+        <MappingFragment StoreEntitySet="EPK_Coleccion">
+          <ScalarProperty Name="IdColeccion" ColumnName="IdColeccion" />
+          <ScalarProperty Name="CodigoColeccion" ColumnName="CodigoColeccion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Actual" ColumnName="Actual" />
+          <ScalarProperty Name="IdColeccionAnterior" ColumnName="IdColeccionAnterior" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Color">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Color">
+        <MappingFragment StoreEntitySet="EPK_Color">
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="CodigoColor" ColumnName="CodigoColor" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CombinacionGrupos">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CombinacionGrupos">
+        <MappingFragment StoreEntitySet="EPK_CombinacionGrupos">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdCombinacion" ColumnName="IdCombinacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdGrupo1" ColumnName="IdGrupo1" />
+          <ScalarProperty Name="IdGrupo2" ColumnName="IdGrupo2" />
+          <ScalarProperty Name="IdGrupo3" ColumnName="IdGrupo3" />
+          <ScalarProperty Name="IdGrupo4" ColumnName="IdGrupo4" />
+          <ScalarProperty Name="IdGrupo5" ColumnName="IdGrupo5" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Contingencia">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Contingencia">
+        <MappingFragment StoreEntitySet="EPK_Contingencia">
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+          <ScalarProperty Name="IdNotaC" ColumnName="IdNotaC" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="IdAlivioEfectivo" ColumnName="IdAlivioEfectivo" />
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdCierreV" ColumnName="IdCierreV" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Denominacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Denominacion">
+        <MappingFragment StoreEntitySet="EPK_Denominacion">
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="Denominacion" ColumnName="Denominacion" />
+          <ScalarProperty Name="Billete" ColumnName="Billete" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Departamento">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Departamento">
+        <MappingFragment StoreEntitySet="EPK_Departamento">
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+          <ScalarProperty Name="CodDepartamento" ColumnName="CodDepartamento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_DepositoCheque">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_DepositoCheque">
+        <MappingFragment StoreEntitySet="EPK_DepositoCheque">
+          <ScalarProperty Name="IdDeposito" ColumnName="IdDeposito" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_DepositoDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_DepositoDetalle">
+        <MappingFragment StoreEntitySet="EPK_DepositoDetalle">
+          <ScalarProperty Name="IdDeposito" ColumnName="IdDeposito" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Descuento">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Descuento">
+        <MappingFragment StoreEntitySet="EPK_Descuento">
+          <ScalarProperty Name="IdDescuento" ColumnName="IdDescuento" />
+          <ScalarProperty Name="IdTipoDescuento" ColumnName="IdTipoDescuento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="MontoLimite" ColumnName="MontoLimite" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Dispositivo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Dispositivo">
+        <MappingFragment StoreEntitySet="EPK_Dispositivo">
+          <ScalarProperty Name="IdDispositivo" ColumnName="IdDispositivo" />
+          <ScalarProperty Name="IdTipoDispositivo" ColumnName="IdTipoDispositivo" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="FechaInicioOperacion" ColumnName="FechaInicioOperacion" />
+          <ScalarProperty Name="FechaFinOperacion" ColumnName="FechaFinOperacion" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="IdMarca" ColumnName="IdMarca" />
+          <ScalarProperty Name="NroReporteZ" ColumnName="NroReporteZ" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EfectivoRemanenteDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EfectivoRemanenteDetalle">
+        <MappingFragment StoreEntitySet="EPK_EfectivoRemanenteDetalle">
+          <ScalarProperty Name="IdEfectivoR" ColumnName="IdEfectivoR" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="CantidadAlivio" ColumnName="CantidadAlivio" />
+          <ScalarProperty Name="CantidadDeposito" ColumnName="CantidadDeposito" />
+          <ScalarProperty Name="CantidadRemanente" ColumnName="CantidadRemanente" />
+          <ScalarProperty Name="CantidadActual" ColumnName="CantidadActual" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EfectivoRemanenteEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EfectivoRemanenteEncabezado">
+        <MappingFragment StoreEntitySet="EPK_EfectivoRemanenteEncabezado">
+          <ScalarProperty Name="IdEfectivoR" ColumnName="IdEfectivoR" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EmpleadoAcceso">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EmpleadoAcceso">
+        <MappingFragment StoreEntitySet="EPK_EmpleadoAcceso">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EmpleadoLocalidad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EmpleadoLocalidad">
+        <MappingFragment StoreEntitySet="EPK_EmpleadoLocalidad">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="FechaHoraRegistro" ColumnName="FechaHoraRegistro" />
+          <ScalarProperty Name="FechaHoraEliminacion" ColumnName="FechaHoraEliminacion" />
+          <ScalarProperty Name="FechaHoraInactivo" ColumnName="FechaHoraInactivo" />
+          <ScalarProperty Name="FechaHoraEnvio" ColumnName="FechaHoraEnvio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Empleados">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Empleados">
+        <MappingFragment StoreEntitySet="EPK_Empleados">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="FechaFinRelacion" ColumnName="FechaFinRelacion" />
+          <ScalarProperty Name="RecibeNotificacion" ColumnName="RecibeNotificacion" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="CodigoTarjeta" ColumnName="CodigoTarjeta" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="IdPrivilegio" ColumnName="IdPrivilegio" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdZonaActual" ColumnName="IdZonaActual" />
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+          <ScalarProperty Name="IdCargo" ColumnName="IdCargo" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="IdModoVerificacion" ColumnName="IdModoVerificacion" />
+          <ScalarProperty Name="FechaEgreso" ColumnName="FechaEgreso" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EmpleadoTerminal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EmpleadoTerminal">
+        <MappingFragment StoreEntitySet="EPK_EmpleadoTerminal">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="FechaHoraRegistro" ColumnName="FechaHoraRegistro" />
+          <ScalarProperty Name="FechaHoraEliminacion" ColumnName="FechaHoraEliminacion" />
+          <ScalarProperty Name="FechaHoraInactivo" ColumnName="FechaHoraInactivo" />
+          <ScalarProperty Name="FechaHoraEnvio" ColumnName="FechaHoraEnvio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EntidadFinanciera">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EntidadFinanciera">
+        <MappingFragment StoreEntitySet="EPK_EntidadFinanciera">
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="CodSudeban" ColumnName="CodSudeban" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="MaximoPOS" ColumnName="MaximoPOS" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Estado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Estado">
+        <MappingFragment StoreEntitySet="EPK_Estado">
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdRegionPais" ColumnName="IdRegionPais" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Estatus">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Estatus">
+        <MappingFragment StoreEntitySet="EPK_Estatus">
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_EventoTerminal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_EventoTerminal">
+        <MappingFragment StoreEntitySet="EPK_EventoTerminal">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdEvento" ColumnName="IdEvento" />
+          <ScalarProperty Name="FechaHoraEvento" ColumnName="FechaHoraEvento" />
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="FechaHoraEnvio" ColumnName="FechaHoraEnvio" />
+          <ScalarProperty Name="FechaHoraEjecucion" ColumnName="FechaHoraEjecucion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FacturaDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FacturaDetalle">
+        <MappingFragment StoreEntitySet="EPK_FacturaDetalle">
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="MontoImpuesto" ColumnName="MontoImpuesto" />
+          <ScalarProperty Name="PrecioNeto" ColumnName="PrecioNeto" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="IdMotivoDevolucion" ColumnName="IdMotivoDevolucion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FacturaEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FacturaEncabezado">
+        <MappingFragment StoreEntitySet="EPK_FacturaEncabezado">
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="TicketFiscal" ColumnName="TicketFiscal" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="NroReporteZ" ColumnName="NroReporteZ" />
+          <ScalarProperty Name="IdVendedor" ColumnName="IdVendedor" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FacturaEsperaDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FacturaEsperaDetalle">
+        <MappingFragment StoreEntitySet="EPK_FacturaEsperaDetalle">
+          <ScalarProperty Name="IdFacturaEspera" ColumnName="IdFacturaEspera" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="MontoImpuesto" ColumnName="MontoImpuesto" />
+          <ScalarProperty Name="PrecioNeto" ColumnName="PrecioNeto" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FacturaEsperaEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FacturaEsperaEncabezado">
+        <MappingFragment StoreEntitySet="EPK_FacturaEsperaEncabezado">
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdFacturaEspera" ColumnName="IdFacturaEspera" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="IdVendedor" ColumnName="IdVendedor" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FacturaPago">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FacturaPago">
+        <MappingFragment StoreEntitySet="EPK_FacturaPago">
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="NumeroPago" ColumnName="NumeroPago" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="MontoVuelto" ColumnName="MontoVuelto" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Feriados">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Feriados">
+        <MappingFragment StoreEntitySet="EPK_Feriados">
+          <ScalarProperty Name="IdFeriado" ColumnName="IdFeriado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="Anual" ColumnName="Anual" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FeriadosRegion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FeriadosRegion">
+        <MappingFragment StoreEntitySet="EPK_FeriadosRegion">
+          <ScalarProperty Name="IdFeriado" ColumnName="IdFeriado" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FormaPago">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FormaPago">
+        <MappingFragment StoreEntitySet="EPK_FormaPago">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="Codigo_Pago" ColumnName="Codigo_Pago" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="RequiereAutorizacion" ColumnName="RequiereAutorizacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="DatosBanco" ColumnName="DatosBanco" />
+          <ScalarProperty Name="DatosPOS" ColumnName="DatosPOS" />
+          <ScalarProperty Name="Restringida" ColumnName="Restringida" />
+          <ScalarProperty Name="Maximo" ColumnName="Maximo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Funcionalidad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Funcionalidad">
+        <MappingFragment StoreEntitySet="EPK_Funcionalidad">
+          <ScalarProperty Name="IdFuncionalidad" ColumnName="IdFuncionalidad" />
+          <ScalarProperty Name="IdGrupoFuncionalidad" ColumnName="IdGrupoFuncionalidad" />
+          <ScalarProperty Name="IdTipoFuncionalidad" ColumnName="IdTipoFuncionalidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Genero">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Genero">
+        <MappingFragment StoreEntitySet="EPK_Genero">
+          <ScalarProperty Name="IdGenero" ColumnName="IdGenero" />
+          <ScalarProperty Name="CodigoGenero" ColumnName="CodigoGenero" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Grupo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Grupo">
+        <MappingFragment StoreEntitySet="EPK_Grupo">
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="CodigoGrupo" ColumnName="CodigoGrupo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdTipoPrenda" ColumnName="IdTipoPrenda" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_GrupoFuncionalidad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_GrupoFuncionalidad">
+        <MappingFragment StoreEntitySet="EPK_GrupoFuncionalidad">
+          <ScalarProperty Name="IdGrupoFuncionalidad" ColumnName="IdGrupoFuncionalidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Padre" ColumnName="Padre" />
+          <ScalarProperty Name="TipoServicio" ColumnName="TipoServicio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_GrupoZona">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_GrupoZona">
+        <MappingFragment StoreEntitySet="EPK_GrupoZona">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoVerificacion" ColumnName="TipoVerificacion" />
+          <ScalarProperty Name="FeriadosValidos" ColumnName="FeriadosValidos" />
+          <ScalarProperty Name="IdZona1" ColumnName="IdZona1" />
+          <ScalarProperty Name="IdZona2" ColumnName="IdZona2" />
+          <ScalarProperty Name="IdZona3" ColumnName="IdZona3" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoArticuloExistencia">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoArticuloExistencia">
+        <MappingFragment StoreEntitySet="EPK_HistoricoArticuloExistencia">
+          <ScalarProperty Name="IdHistoricoE" ColumnName="IdHistoricoE" />
+          <ScalarProperty Name="CodigoSitio" ColumnName="CodigoSitio" />
+          <ScalarProperty Name="CodigoColeccion" ColumnName="CodigoColeccion" />
+          <ScalarProperty Name="CodigoGrupo" ColumnName="CodigoGrupo" />
+          <ScalarProperty Name="CodigoTalla" ColumnName="CodigoTalla" />
+          <ScalarProperty Name="Semana" ColumnName="Semana" />
+          <ScalarProperty Name="Anno" ColumnName="Anno" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+          <ScalarProperty Name="Venta" ColumnName="Venta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoFacturaDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoFacturaDetalle">
+        <MappingFragment StoreEntitySet="EPK_HistoricoFacturaDetalle">
+          <ScalarProperty Name="IdHistoricoFactura" ColumnName="IdHistoricoFactura" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="IdMotivoDevolucion" ColumnName="IdMotivoDevolucion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoFacturaEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoFacturaEncabezado">
+        <MappingFragment StoreEntitySet="EPK_HistoricoFacturaEncabezado">
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdHistoricoFactura" ColumnName="IdHistoricoFactura" />
+          <ScalarProperty Name="TicketFiscal" ColumnName="TicketFiscal" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="NroReporteZ" ColumnName="NroReporteZ" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoFacturaPago">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoFacturaPago">
+        <MappingFragment StoreEntitySet="EPK_HistoricoFacturaPago">
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="IdHistoricoFactura" ColumnName="IdHistoricoFactura" />
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="NumeroPago" ColumnName="NumeroPago" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoNotaCreditoDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoNotaCreditoDetalle">
+        <MappingFragment StoreEntitySet="EPK_HistoricoNotaCreditoDetalle">
+          <ScalarProperty Name="IdNota" ColumnName="IdNota" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HistoricoNotaCreditoEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoNotaCreditoEncabezado">
+        <MappingFragment StoreEntitySet="EPK_HistoricoNotaCreditoEncabezado">
+          <ScalarProperty Name="IdNota" ColumnName="IdNota" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="TicketFiscal" ColumnName="TicketFiscal" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_HuellaEmpleado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HuellaEmpleado">
+        <MappingFragment StoreEntitySet="EPK_HuellaEmpleado">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="IdFingerPrint" ColumnName="IdFingerPrint" />
+          <ScalarProperty Name="IdFlag" ColumnName="IdFlag" />
+          <ScalarProperty Name="TemplateFinger" ColumnName="TemplateFinger" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Insumos">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Insumos">
+        <MappingFragment StoreEntitySet="EPK_Insumos">
+          <ScalarProperty Name="IdInsumo" ColumnName="IdInsumo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdTipoInsumo" ColumnName="IdTipoInsumo" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="Entradas" ColumnName="Entradas" />
+          <ScalarProperty Name="Salidas" ColumnName="Salidas" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Lecturas">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Lecturas">
+        <MappingFragment StoreEntitySet="EPK_Lecturas">
+          <ScalarProperty Name="IdLectura" ColumnName="IdLectura" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="TipoEntrada" ColumnName="TipoEntrada" />
+          <ScalarProperty Name="FechaLectura" ColumnName="FechaLectura" />
+          <ScalarProperty Name="HoraLectura" ColumnName="HoraLectura" />
+          <ScalarProperty Name="IdEstadoLectura" ColumnName="IdEstadoLectura" />
+          <ScalarProperty Name="ModoVerificacion" ColumnName="ModoVerificacion" />
+          <ScalarProperty Name="WorkCode" ColumnName="WorkCode" />
+          <ScalarProperty Name="FechaHoraEnvio" ColumnName="FechaHoraEnvio" />
+          <ScalarProperty Name="IdZonaActual" ColumnName="IdZonaActual" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Lenguaje">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Lenguaje">
+        <MappingFragment StoreEntitySet="EPK_Lenguaje">
+          <ScalarProperty Name="IdLenguaje" ColumnName="IdLenguaje" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaActualizacion" ColumnName="FechaActualizacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Localidad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Localidad">
+        <MappingFragment StoreEntitySet="EPK_Localidad">
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_LogActualizacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_LogActualizacion">
+        <MappingFragment StoreEntitySet="EPK_LogActualizacion">
+          <ScalarProperty Name="IdLog" ColumnName="IdLog" />
+          <ScalarProperty Name="IdActualizacion" ColumnName="IdActualizacion" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="FechaEstatus" ColumnName="FechaEstatus" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_LogErrores">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_LogErrores">
+        <MappingFragment StoreEntitySet="EPK_LogErrores">
+          <ScalarProperty Name="IdError" ColumnName="IdError" />
+          <ScalarProperty Name="Procedimiento" ColumnName="Procedimiento" />
+          <ScalarProperty Name="Linea" ColumnName="Linea" />
+          <ScalarProperty Name="NroError" ColumnName="NroError" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaError" ColumnName="FechaError" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_LogUsuarioClave">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_LogUsuarioClave">
+        <MappingFragment StoreEntitySet="EPK_LogUsuarioClave">
+          <ScalarProperty Name="IdLogClave" ColumnName="IdLogClave" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="FechaCambio" ColumnName="FechaCambio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_MaquinaFiscal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_MaquinaFiscal">
+        <MappingFragment StoreEntitySet="EPK_MaquinaFiscal">
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="CodTienda" ColumnName="CodTienda" />
+          <ScalarProperty Name="CodMaquina" ColumnName="CodMaquina" />
+          <ScalarProperty Name="Operativa" ColumnName="Operativa" />
+          <ScalarProperty Name="FechaFinOperacion" ColumnName="FechaFinOperacion" />
+          <ScalarProperty Name="FechaInicioOperacion" ColumnName="FechaInicioOperacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_MarcaDispositivo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_MarcaDispositivo">
+        <MappingFragment StoreEntitySet="EPK_MarcaDispositivo">
+          <ScalarProperty Name="IdMarca" ColumnName="IdMarca" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Mensaje">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Mensaje">
+        <MappingFragment StoreEntitySet="EPK_Mensaje">
+          <ScalarProperty Name="IdMensaje" ColumnName="IdMensaje" />
+          <ScalarProperty Name="Bandera" ColumnName="Bandera" />
+          <ScalarProperty Name="Minutos" ColumnName="Minutos" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_MensajeTerminal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_MensajeTerminal">
+        <MappingFragment StoreEntitySet="EPK_MensajeTerminal">
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdMensaje" ColumnName="IdMensaje" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Mes">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Mes">
+        <MappingFragment StoreEntitySet="EPK_Mes">
+          <ScalarProperty Name="Codigo_Mes" ColumnName="Codigo_Mes" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ModoVerificacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ModoVerificacion">
+        <MappingFragment StoreEntitySet="EPK_ModoVerificacion">
+          <ScalarProperty Name="IdModoVerificacion" ColumnName="IdModoVerificacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Modulo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Modulo">
+        <MappingFragment StoreEntitySet="EPK_Modulo">
+          <ScalarProperty Name="IdModulo" ColumnName="IdModulo" />
+          <ScalarProperty Name="IdApp" ColumnName="IdApp" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IdPrioridad" ColumnName="IdPrioridad" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_MotivoDescuento">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_MotivoDescuento">
+        <MappingFragment StoreEntitySet="EPK_MotivoDescuento">
+          <ScalarProperty Name="IdMotivoDesc" ColumnName="IdMotivoDesc" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_MotivoDevolucion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_MotivoDevolucion">
+        <MappingFragment StoreEntitySet="EPK_MotivoDevolucion">
+          <ScalarProperty Name="IdMotivo" ColumnName="IdMotivo" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_NivelPerfil">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_NivelPerfil">
+        <MappingFragment StoreEntitySet="EPK_NivelPerfil">
+          <ScalarProperty Name="IdNivel" ColumnName="IdNivel" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_NotaCreditoDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_NotaCreditoDetalle">
+        <MappingFragment StoreEntitySet="EPK_NotaCreditoDetalle">
+          <ScalarProperty Name="IdNotaC" ColumnName="IdNotaC" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="MontoImpuesto" ColumnName="MontoImpuesto" />
+          <ScalarProperty Name="PrecioNeto" ColumnName="PrecioNeto" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_NotaCreditoEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_NotaCreditoEncabezado">
+        <MappingFragment StoreEntitySet="EPK_NotaCreditoEncabezado">
+          <ScalarProperty Name="IdNotaC" ColumnName="IdNotaC" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="TicketFiscal" ColumnName="TicketFiscal" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="NroReporteZ" ColumnName="NroReporteZ" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Objeto">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Objeto">
+        <MappingFragment StoreEntitySet="EPK_Objeto">
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdModulo" ColumnName="IdModulo" />
+          <ScalarProperty Name="NombreTecnico" ColumnName="NombreTecnico" />
+          <ScalarProperty Name="NombreFuncional" ColumnName="NombreFuncional" />
+          <ScalarProperty Name="IdPadre" ColumnName="IdPadre" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ObjetoAccion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ObjetoAccion">
+        <MappingFragment StoreEntitySet="EPK_ObjetoAccion">
+          <ScalarProperty Name="IdAccion" ColumnName="IdAccion" />
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="NecesitaAutorizacion" ColumnName="NecesitaAutorizacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ObjetoEstatus">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ObjetoEstatus">
+        <MappingFragment StoreEntitySet="EPK_ObjetoEstatus">
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Organizacion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Organizacion">
+        <MappingFragment StoreEntitySet="EPK_Organizacion">
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="RIF" ColumnName="RIF" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="Email3" ColumnName="Email3" />
+          <ScalarProperty Name="IdLenguaje" ColumnName="IdLenguaje" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="ImagenDefault" ColumnName="ImagenDefault" />
+          <ScalarProperty Name="MimeTypeDefault" ColumnName="MimeTypeDefault" />
+          <ScalarProperty Name="FileNameDefault" ColumnName="FileNameDefault" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_PaginasUsuario">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_PaginasUsuario">
+        <MappingFragment StoreEntitySet="EPK_PaginasUsuario">
+          <ScalarProperty Name="IdPaginaUsuario" ColumnName="IdPaginaUsuario" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="PaginaInicio" ColumnName="PaginaInicio" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Pais">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Pais">
+        <MappingFragment StoreEntitySet="EPK_Pais">
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ParametrosSistema">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ParametrosSistema">
+        <MappingFragment StoreEntitySet="EPK_ParametrosSistema">
+          <ScalarProperty Name="IdParametro" ColumnName="IdParametro" />
+          <ScalarProperty Name="IdTipoTienda" ColumnName="IdTipoTienda" />
+          <ScalarProperty Name="CodParametro" ColumnName="CodParametro" />
+          <ScalarProperty Name="TipoParametro" ColumnName="TipoParametro" />
+          <ScalarProperty Name="ValorCadena" ColumnName="ValorCadena" />
+          <ScalarProperty Name="ValorNumerico" ColumnName="ValorNumerico" />
+          <ScalarProperty Name="ValorEntero" ColumnName="ValorEntero" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Parentesco">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Parentesco">
+        <MappingFragment StoreEntitySet="EPK_Parentesco">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="IdParentesco" ColumnName="IdParentesco" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="FechaDeNacimiento" ColumnName="FechaDeNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="IdTipoParentesco" ColumnName="IdTipoParentesco" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Perfil">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Perfil">
+        <MappingFragment StoreEntitySet="EPK_Perfil">
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Autorizador" ColumnName="Autorizador" />
+          <ScalarProperty Name="IdNivel" ColumnName="IdNivel" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="MostrarNiveles" ColumnName="MostrarNiveles" />
+          <ScalarProperty Name="Asistencia" ColumnName="Asistencia" />
+          <ScalarProperty Name="BloqueoClave" ColumnName="BloqueoClave" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_PerfilAccion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_PerfilAccion">
+        <MappingFragment StoreEntitySet="EPK_PerfilAccion">
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="IdAccion" ColumnName="IdAccion" />
+          <ScalarProperty Name="Autorizador" ColumnName="Autorizador" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_PerfilObjetos">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_PerfilObjetos">
+        <MappingFragment StoreEntitySet="EPK_PerfilObjetos">
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_POS">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_POS">
+        <MappingFragment StoreEntitySet="EPK_POS">
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_POSTienda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_POSTienda">
+        <MappingFragment StoreEntitySet="EPK_POSTienda">
+          <ScalarProperty Name="IdPOS" ColumnName="IdPOS" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SerialPOS" ColumnName="SerialPOS" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_PrioridadModulo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_PrioridadModulo">
+        <MappingFragment StoreEntitySet="EPK_PrioridadModulo">
+          <ScalarProperty Name="IdPrioridad" ColumnName="IdPrioridad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Privilegio">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Privilegio">
+        <MappingFragment StoreEntitySet="EPK_Privilegio">
+          <ScalarProperty Name="IdPrivilegio" ColumnName="IdPrivilegio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Referencia">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Referencia">
+        <MappingFragment StoreEntitySet="EPK_Referencia">
+          <ScalarProperty Name="Obsequio" ColumnName="Obsequio" />
+          <ScalarProperty Name="IdReferencia" ColumnName="IdReferencia" />
+          <ScalarProperty Name="CodigoReferencia" ColumnName="CodigoReferencia" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="IdGenero" ColumnName="IdGenero" />
+          <ScalarProperty Name="IdColeccion" ColumnName="IdColeccion" />
+          <ScalarProperty Name="IdTema" ColumnName="IdTema" />
+          <ScalarProperty Name="IdEquivalente" ColumnName="IdEquivalente" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FotoMediana" ColumnName="FotoMediana" />
+          <ScalarProperty Name="MimeTypeMediana" ColumnName="MimeTypeMediana" />
+          <ScalarProperty Name="FileNameMediana" ColumnName="FileNameMediana" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Region">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Region">
+        <MappingFragment StoreEntitySet="EPK_Region">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CodigoPostal" ColumnName="CodigoPostal" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="IdTipoRegion" ColumnName="IdTipoRegion" />
+          <ScalarProperty Name="BonoAlimentacionExtra" ColumnName="BonoAlimentacionExtra" />
+          <ScalarProperty Name="HorasBonoAlimentacionBasico" ColumnName="HorasBonoAlimentacionBasico" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_RegionPais">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_RegionPais">
+        <MappingFragment StoreEntitySet="EPK_RegionPais">
+          <ScalarProperty Name="IdRegionPais" ColumnName="IdRegionPais" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="DiaPedido" ColumnName="DiaPedido" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_SeguridadPlantilla">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_SeguridadPlantilla">
+        <MappingFragment StoreEntitySet="EPK_SeguridadPlantilla">
+          <ScalarProperty Name="IdPlantilla" ColumnName="IdPlantilla" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_SeguridadPlantillaApp">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_SeguridadPlantillaApp">
+        <MappingFragment StoreEntitySet="EPK_SeguridadPlantillaApp">
+          <ScalarProperty Name="IdPlantilla" ColumnName="IdPlantilla" />
+          <ScalarProperty Name="IdApp" ColumnName="IdApp" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Talla">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Talla">
+        <MappingFragment StoreEntitySet="EPK_Talla">
+          <ScalarProperty Name="IdTalla" ColumnName="IdTalla" />
+          <ScalarProperty Name="CodigoTalla" ColumnName="CodigoTalla" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Tema">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Tema">
+        <MappingFragment StoreEntitySet="EPK_Tema">
+          <ScalarProperty Name="IdTema" ColumnName="IdTema" />
+          <ScalarProperty Name="CodigoTema" ColumnName="CodigoTema" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Temporada">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Temporada">
+        <MappingFragment StoreEntitySet="EPK_Temporada">
+          <ScalarProperty Name="IdTemporada" ColumnName="IdTemporada" />
+          <ScalarProperty Name="Anno" ColumnName="Anno" />
+          <ScalarProperty Name="Semana" ColumnName="Semana" />
+          <ScalarProperty Name="PorcentajeAumento" ColumnName="PorcentajeAumento" />
+          <ScalarProperty Name="SemanasAnalisis" ColumnName="SemanasAnalisis" />
+          <ScalarProperty Name="IdTipoTemporada" ColumnName="IdTipoTemporada" />
+          <ScalarProperty Name="MaximoStock" ColumnName="MaximoStock" />
+          <ScalarProperty Name="SemanasAnticipacion" ColumnName="SemanasAnticipacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TemporadaGrupo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TemporadaGrupo">
+        <MappingFragment StoreEntitySet="EPK_TemporadaGrupo">
+          <ScalarProperty Name="IdTemporada" ColumnName="IdTemporada" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="PorcentajeAumento" ColumnName="PorcentajeAumento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Terminal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Terminal">
+        <MappingFragment StoreEntitySet="EPK_Terminal">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdTipoTerminal" ColumnName="IdTipoTerminal" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DireccionIP" ColumnName="DireccionIP" />
+          <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+          <ScalarProperty Name="DireccionMAC" ColumnName="DireccionMAC" />
+          <ScalarProperty Name="VersionFirmware" ColumnName="VersionFirmware" />
+          <ScalarProperty Name="NumeroDeSerial" ColumnName="NumeroDeSerial" />
+          <ScalarProperty Name="VersionSDK" ColumnName="VersionSDK" />
+          <ScalarProperty Name="Plataforma" ColumnName="Plataforma" />
+          <ScalarProperty Name="CardFun" ColumnName="CardFun" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="FechaHoraDispositivo" ColumnName="FechaHoraDispositivo" />
+          <ScalarProperty Name="FechaHoraServidor" ColumnName="FechaHoraServidor" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="CapacidadUsuario" ColumnName="CapacidadUsuario" />
+          <ScalarProperty Name="CapacidadHuella" ColumnName="CapacidadHuella" />
+          <ScalarProperty Name="CantidadLecturas" ColumnName="CantidadLecturas" />
+          <ScalarProperty Name="CantidadClaves" ColumnName="CantidadClaves" />
+          <ScalarProperty Name="CantidadHuellas" ColumnName="CantidadHuellas" />
+          <ScalarProperty Name="CantidadUsuarios" ColumnName="CantidadUsuarios" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Gateway" ColumnName="Gateway" />
+          <ScalarProperty Name="Mascara" ColumnName="Mascara" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="AntiPassback" ColumnName="AntiPassback" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TerminalGrupo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TerminalGrupo">
+        <MappingFragment StoreEntitySet="EPK_TerminalGrupo">
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TerminalZona">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TerminalZona">
+        <MappingFragment StoreEntitySet="EPK_TerminalZona">
+          <ScalarProperty Name="IdLocalidad" ColumnName="IdLocalidad" />
+          <ScalarProperty Name="IdTerminal" ColumnName="IdTerminal" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Tienda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Tienda">
+        <MappingFragment StoreEntitySet="EPK_Tienda">
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="IdCiudad" ColumnName="IdCiudad" />
+          <ScalarProperty Name="IdTipoTienda" ColumnName="IdTipoTienda" />
+          <ScalarProperty Name="CodigoTienda" ColumnName="CodigoTienda" />
+          <ScalarProperty Name="CodigoSitio" ColumnName="CodigoSitio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DireccionIP" ColumnName="DireccionIP" />
+          <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+          <ScalarProperty Name="PiedeFactura" ColumnName="PiedeFactura" />
+          <ScalarProperty Name="CapacidadPiezas" ColumnName="CapacidadPiezas" />
+          <ScalarProperty Name="CapacidadPisoVta" ColumnName="CapacidadPisoVta" />
+          <ScalarProperty Name="CapacidadDeposito" ColumnName="CapacidadDeposito" />
+          <ScalarProperty Name="CapacidadMezzanina" ColumnName="CapacidadMezzanina" />
+          <ScalarProperty Name="EspacioPisoVta" ColumnName="EspacioPisoVta" />
+          <ScalarProperty Name="EspacioDeposito" ColumnName="EspacioDeposito" />
+          <ScalarProperty Name="EspacioMezzanina" ColumnName="EspacioMezzanina" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="SitioColeccionActual" ColumnName="SitioColeccionActual" />
+          <ScalarProperty Name="SitioColeccionesPasadas" ColumnName="SitioColeccionesPasadas" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="TopeApertura" ColumnName="TopeApertura" />
+          <ScalarProperty Name="ClientesCentralizados" ColumnName="ClientesCentralizados" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TiendaTelefono">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TiendaTelefono">
+        <MappingFragment StoreEntitySet="EPK_TiendaTelefono">
+          <ScalarProperty Name="IdTelefonoTienda" ColumnName="IdTelefonoTienda" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoDescuento">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoDescuento">
+        <MappingFragment StoreEntitySet="EPK_TipoDescuento">
+          <ScalarProperty Name="IdTipoDescuento" ColumnName="IdTipoDescuento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoDispositivo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoDispositivo">
+        <MappingFragment StoreEntitySet="EPK_TipoDispositivo">
+          <ScalarProperty Name="IdTipoDispositivo" ColumnName="IdTipoDispositivo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Unico" ColumnName="Unico" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoDocumento">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoDocumento">
+        <MappingFragment StoreEntitySet="EPK_TipoDocumento">
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+          <ScalarProperty Name="PersonaNatural" ColumnName="PersonaNatural" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="Validacion" ColumnName="Validacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoEntrada">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoEntrada">
+        <MappingFragment StoreEntitySet="EPK_TipoEntrada">
+          <ScalarProperty Name="IdTipoEntrada" ColumnName="IdTipoEntrada" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoFuncionalidad">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoFuncionalidad">
+        <MappingFragment StoreEntitySet="EPK_TipoFuncionalidad">
+          <ScalarProperty Name="IdTipoFuncionalidad" ColumnName="IdTipoFuncionalidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoInsumo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoInsumo">
+        <MappingFragment StoreEntitySet="EPK_TipoInsumo">
+          <ScalarProperty Name="IdTipoInsumo" ColumnName="IdTipoInsumo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoParentesco">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoParentesco">
+        <MappingFragment StoreEntitySet="EPK_TipoParentesco">
+          <ScalarProperty Name="IdTipoParentesco" ColumnName="IdTipoParentesco" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoRegion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoRegion">
+        <MappingFragment StoreEntitySet="EPK_TipoRegion">
+          <ScalarProperty Name="IdTipoRegion" ColumnName="IdTipoRegion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="BonoAliBaseFraccionado" ColumnName="BonoAliBaseFraccionado" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoServicios">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoServicios">
+        <MappingFragment StoreEntitySet="EPK_TipoServicios">
+          <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoTemporada">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoTemporada">
+        <MappingFragment StoreEntitySet="EPK_TipoTemporada">
+          <ScalarProperty Name="IdTipoTemporada" ColumnName="IdTipoTemporada" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoTerminal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoTerminal">
+        <MappingFragment StoreEntitySet="EPK_TipoTerminal">
+          <ScalarProperty Name="IdTipoTerminal" ColumnName="IdTipoTerminal" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoTienda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoTienda">
+        <MappingFragment StoreEntitySet="EPK_TipoTienda">
+          <ScalarProperty Name="IdTipoTienda" ColumnName="IdTipoTienda" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="AplicaImpuesto" ColumnName="AplicaImpuesto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_TipoTiendaFormaPago">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoTiendaFormaPago">
+        <MappingFragment StoreEntitySet="EPK_TipoTiendaFormaPago">
+          <ScalarProperty Name="IdTipoTienda" ColumnName="IdTipoTienda" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Usuario">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Usuario">
+        <MappingFragment StoreEntitySet="EPK_Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ReqPassChange" ColumnName="ReqPassChange" />
+          <ScalarProperty Name="LastPassChange" ColumnName="LastPassChange" />
+          <ScalarProperty Name="NewPasswordKey" ColumnName="NewPasswordKey" />
+          <ScalarProperty Name="NewPasswordReq" ColumnName="NewPasswordReq" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="FailedLoginAttempts" ColumnName="FailedLoginAttempts" />
+          <ScalarProperty Name="LastLockedDate" ColumnName="LastLockedDate" />
+          <ScalarProperty Name="LastLockedReason" ColumnName="LastLockedReason" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="IdCajaActual" ColumnName="IdCajaActual" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_UsuarioApp">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_UsuarioApp">
+        <MappingFragment StoreEntitySet="EPK_UsuarioApp">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdApp" ColumnName="IdApp" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="IdObjetoPrincipal" ColumnName="IdObjetoPrincipal" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_UsuarioBackup">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_UsuarioBackup">
+        <MappingFragment StoreEntitySet="EPK_UsuarioBackup">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+          <ScalarProperty Name="PalabraClave" ColumnName="PalabraClave" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaUltimaModificacion" ColumnName="FechaUltimaModificacion" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FechaActualizacion" ColumnName="FechaActualizacion" />
+          <ScalarProperty Name="IdPreguntaSecreta" ColumnName="IdPreguntaSecreta" />
+          <ScalarProperty Name="RespuestaSecreta" ColumnName="RespuestaSecreta" />
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="IdLenguaje" ColumnName="IdLenguaje" />
+          <ScalarProperty Name="IdPaginaPrincipal" ColumnName="IdPaginaPrincipal" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="CodTienda" ColumnName="CodTienda" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_UsuarioTienda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_UsuarioTienda">
+        <MappingFragment StoreEntitySet="EPK_UsuarioTienda">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdCargo" ColumnName="IdCargo" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Zonas">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Zonas">
+        <MappingFragment StoreEntitySet="EPK_Zonas">
+          <ScalarProperty Name="IdRegion" ColumnName="IdRegion" />
+          <ScalarProperty Name="IdZona" ColumnName="IdZona" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Intervalos" ColumnName="Intervalos" />
+          <ScalarProperty Name="LunesHoraE" ColumnName="LunesHoraE" />
+          <ScalarProperty Name="LunesHoraS" ColumnName="LunesHoraS" />
+          <ScalarProperty Name="MartesHoraE" ColumnName="MartesHoraE" />
+          <ScalarProperty Name="MartesHoraS" ColumnName="MartesHoraS" />
+          <ScalarProperty Name="MiercolesHoraE" ColumnName="MiercolesHoraE" />
+          <ScalarProperty Name="MiercolesHoraS" ColumnName="MiercolesHoraS" />
+          <ScalarProperty Name="JuevesHoraE" ColumnName="JuevesHoraE" />
+          <ScalarProperty Name="JuevesHoraS" ColumnName="JuevesHoraS" />
+          <ScalarProperty Name="ViernesHoraE" ColumnName="ViernesHoraE" />
+          <ScalarProperty Name="ViernesHoraS" ColumnName="ViernesHoraS" />
+          <ScalarProperty Name="SabadoHoraE" ColumnName="SabadoHoraE" />
+          <ScalarProperty Name="SabadoHoraS" ColumnName="SabadoHoraS" />
+          <ScalarProperty Name="DomingoHoraE" ColumnName="DomingoHoraE" />
+          <ScalarProperty Name="DomingoHoraS" ColumnName="DomingoHoraS" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ConfiguracionSistema">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ConfiguracionSistema">
+        <MappingFragment StoreEntitySet="EPK_ConfiguracionSistema">
+          <ScalarProperty Name="Porcentaje" ColumnName="Porcentaje" />
+          <ScalarProperty Name="UnidadTributaria" ColumnName="UnidadTributaria" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="FechaEliminacion" ColumnName="FechaEliminacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Log_Sesiones">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Log_Sesiones">
+        <MappingFragment StoreEntitySet="EPK_Log_Sesiones">
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPaginaUsuario" ColumnName="IdPaginaUsuario" />
+          <ScalarProperty Name="Operacion" ColumnName="Operacion" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_LogSesiones">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_LogSesiones">
+        <MappingFragment StoreEntitySet="EPK_LogSesiones">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdObjeto" ColumnName="IdObjeto" />
+          <ScalarProperty Name="IdAccion" ColumnName="IdAccion" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_LogTransacciones">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_LogTransacciones">
+        <MappingFragment StoreEntitySet="EPK_LogTransacciones">
+          <ScalarProperty Name="IdUsusario" ColumnName="IdUsusario" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Operacion" ColumnName="Operacion" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Politica">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Politica">
+        <MappingFragment StoreEntitySet="EPK_Politica">
+          <ScalarProperty Name="IdPolitica" ColumnName="IdPolitica" />
+          <ScalarProperty Name="IdOrganizacion" ColumnName="IdOrganizacion" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ImprimeMaquinaFiscal" ColumnName="ImprimeMaquinaFiscal" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_PreguntaSecreta">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_PreguntaSecreta">
+        <MappingFragment StoreEntitySet="EPK_PreguntaSecreta">
+          <ScalarProperty Name="IdPregunta" ColumnName="IdPregunta" />
+          <ScalarProperty Name="Pregunta" ColumnName="Pregunta" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_MaestroPedidoSugerido" FunctionName="EPKSystemPOSModel.Store.EPK_sp_MaestroPedidoSugerido">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_MaestroPedidoSugerido_Result">
+          <ScalarProperty Name="FotoPequena" ColumnName="FotoPequena" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoTalla" ColumnName="CodigoTalla" />
+          <ScalarProperty Name="CodigoColor" ColumnName="CodigoColor" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DescripcionGenero" ColumnName="DescripcionGenero" />
+          <ScalarProperty Name="TipoPrenda" ColumnName="TipoPrenda" />
+          <ScalarProperty Name="EnTienda" ColumnName="EnTienda" />
+          <ScalarProperty Name="EnAlmacen" ColumnName="EnAlmacen" />
+          <ScalarProperty Name="Pedir" ColumnName="Pedir" />
+          <ScalarProperty Name="Disponible" ColumnName="Disponible" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_PedidoSugeridoTotales" FunctionName="EPKSystemPOSModel.Store.EPK_sp_PedidoSugeridoTotales">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_PedidoSugeridoTotales_Result">
+          <ScalarProperty Name="TipoPrenda" ColumnName="TipoPrenda" />
+          <ScalarProperty Name="Pedir" ColumnName="Pedir" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteComportamientoVta" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteComportamientoVta">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteComportamientoVta_Result">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="HoraInicial" ColumnName="HoraInicial" />
+          <ScalarProperty Name="HoraFinal" ColumnName="HoraFinal" />
+          <ScalarProperty Name="TotNroPiezas" ColumnName="TotNroPiezas" />
+          <ScalarProperty Name="TotMontoBase" ColumnName="TotMontoBase" />
+          <ScalarProperty Name="TotMontoIVA" ColumnName="TotMontoIVA" />
+          <ScalarProperty Name="TotMontoNeto" ColumnName="TotMontoNeto" />
+          <ScalarProperty Name="TicketPromedio" ColumnName="TicketPromedio" />
+          <ScalarProperty Name="CantFacturas" ColumnName="CantFacturas" />
+          <ScalarProperty Name="PromPiezasXFactura" ColumnName="PromPiezasXFactura" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteConciliacionFormaPago" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteConciliacionFormaPago">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteConciliacionFormaPago_Result">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="POS" ColumnName="POS" />
+          <ScalarProperty Name="MontoPago" ColumnName="MontoPago" />
+          <ScalarProperty Name="MontoVuelto" ColumnName="MontoVuelto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteConciliacionFormaPagoDetalle" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteConciliacionFormaPagoDetalle">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteConciliacionFormaPagoDetalle_Result">
+          <ScalarProperty Name="N__Factura" ColumnName="N° Factura" />
+          <ScalarProperty Name="TicketFiscal" ColumnName="TicketFiscal" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Cédula_Cliente" ColumnName="Cédula Cliente" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Codigo_Pago" ColumnName="Codigo_Pago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="POS" ColumnName="POS" />
+          <ScalarProperty Name="Cheque_Tarjeta" ColumnName="Cheque/Tarjeta" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteDevoluciones" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteDevoluciones">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteDevoluciones_Result">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="CodigoArticulo" ColumnName="CodigoArticulo" />
+          <ScalarProperty Name="IdReferencia" ColumnName="IdReferencia" />
+          <ScalarProperty Name="FotoPequena" ColumnName="FotoPequena" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="IdMotivoDevolucion" ColumnName="IdMotivoDevolucion" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="IdColeccion" ColumnName="IdColeccion" />
+          <ScalarProperty Name="Coleccion" ColumnName="Coleccion" />
+          <ScalarProperty Name="IdGenero" ColumnName="IdGenero" />
+          <ScalarProperty Name="Genero" ColumnName="Genero" />
+          <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+          <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="Autorizador" ColumnName="Autorizador" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReportePagosConsolidados" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReportePagosConsolidados">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReportePagosConsolidados_Result">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteReferenciasSinMovimiento" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteReferenciasSinMovimiento">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteReferenciasSinMovimiento_Result">
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="CodigoArticulo" ColumnName="CodigoArticulo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="ultventa" ColumnName="ultventa" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteResumenDiarioVtas" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteResumenDiarioVtas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteResumenDiarioVtas_Result">
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="ReporteZ" ColumnName="ReporteZ" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="FacturasEmitidas" ColumnName="FacturasEmitidas" />
+          <ScalarProperty Name="Desde" ColumnName="Desde" />
+          <ScalarProperty Name="Hasta" ColumnName="Hasta" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="ncbig" ColumnName="ncbig" />
+          <ScalarProperty Name="ivanc" ColumnName="ivanc" />
+          <ScalarProperty Name="totalnc" ColumnName="totalnc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVentaDiaria" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVentaDiaria">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVentaDiaria_Result">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="POS" ColumnName="POS" />
+          <ScalarProperty Name="MontoPagos" ColumnName="MontoPagos" />
+          <ScalarProperty Name="MontoCierre" ColumnName="MontoCierre" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVentasxArticulos" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVentasxArticulos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVentasxArticulos_Result">
+          <ScalarProperty Name="FotoPeq" ColumnName="FotoPeq" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="CodReferencia" ColumnName="CodReferencia" />
+          <ScalarProperty Name="CodArticulo" ColumnName="CodArticulo" />
+          <ScalarProperty Name="Descrip" ColumnName="Descrip" />
+          <ScalarProperty Name="Act" ColumnName="Act" />
+          <ScalarProperty Name="Ventas" ColumnName="Ventas" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVtaDiariaFPConsolidado" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVtaDiariaFPConsolidado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVtaDiariaFPConsolidado_Result">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="MontoSistema" ColumnName="MontoSistema" />
+          <ScalarProperty Name="MontoFisico" ColumnName="MontoFisico" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVtaDiariaFPDetallado" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVtaDiariaFPDetallado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVtaDiariaFPDetallado_Result">
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="POS" ColumnName="POS" />
+          <ScalarProperty Name="LotePOS" ColumnName="LotePOS" />
+          <ScalarProperty Name="NroControl" ColumnName="NroControl" />
+          <ScalarProperty Name="MontoSistema" ColumnName="MontoSistema" />
+          <ScalarProperty Name="MontoFisico" ColumnName="MontoFisico" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVtaDiariaTotalesConsolidado" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVtaDiariaTotalesConsolidado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVtaDiariaTotalesConsolidado_Result">
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoNeto" ColumnName="MontoNeto" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteVtaDiariaTotalesFPConsolidado" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteVtaDiariaTotalesFPConsolidado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteVtaDiariaTotalesFPConsolidado_Result">
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="MontoSistema" ColumnName="MontoSistema" />
+          <ScalarProperty Name="MontoFisico" ColumnName="MontoFisico" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="EPK_FlujoEfectivo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FlujoEfectivo">
+        <MappingFragment StoreEntitySet="EPK_FlujoEfectivo">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="IdFlujoEfectivo" ColumnName="IdFlujoEfectivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_FlujoEfectivoDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_FlujoEfectivoDetalle">
+        <MappingFragment StoreEntitySet="EPK_FlujoEfectivoDetalle">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="Egreso" ColumnName="Egreso" />
+          <ScalarProperty Name="Ingreso" ColumnName="Ingreso" />
+          <ScalarProperty Name="IdDenominacion" ColumnName="IdDenominacion" />
+          <ScalarProperty Name="IdFlujoEfectivo" ColumnName="IdFlujoEfectivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_NotaCreditoEsperaDetalle">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_NotaCreditoEsperaDetalle">
+        <MappingFragment StoreEntitySet="EPK_NotaCreditoEsperaDetalle">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="PrecioNeto" ColumnName="PrecioNeto" />
+          <ScalarProperty Name="MontoImpuesto" ColumnName="MontoImpuesto" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="OrigenTienda" ColumnName="OrigenTienda" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdNotaCreditoE" ColumnName="IdNotaCreditoE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_NotaCreditoEsperaEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_NotaCreditoEsperaEncabezado">
+        <MappingFragment StoreEntitySet="EPK_NotaCreditoEsperaEncabezado">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="IdUsuarioModificacion" ColumnName="IdUsuarioModificacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdUsuarioCreacion" ColumnName="IdUsuarioCreacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="NroReporteZ" ColumnName="NroReporteZ" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="TicketFiscalTienda" ColumnName="TicketFiscalTienda" />
+          <ScalarProperty Name="IdNCTienda" ColumnName="IdNCTienda" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="MontoIVA" ColumnName="MontoIVA" />
+          <ScalarProperty Name="MontoDescuento" ColumnName="MontoDescuento" />
+          <ScalarProperty Name="MontoBase" ColumnName="MontoBase" />
+          <ScalarProperty Name="PorcDescuento" ColumnName="PorcDescuento" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdEstatus" ColumnName="IdEstatus" />
+          <ScalarProperty Name="IdFacturaSust" ColumnName="IdFacturaSust" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="OrigenTienda" ColumnName="OrigenTienda" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdNotaCreditoE" ColumnName="IdNotaCreditoE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_LecturasActualizar" FunctionName="EPKSystemPOSModel.Store.EPK_sp_LecturasActualizar" />
+    <EntitySetMapping Name="EPK_ClienteCompra">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ClienteCompra">
+        <MappingFragment StoreEntitySet="EPK_ClienteCompra">
+          <ScalarProperty Name="FechaUltAct" ColumnName="FechaUltAct" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="IdTipoDocumento" ColumnName="IdTipoDocumento" />
+          <ScalarProperty Name="IdVentaCliente" ColumnName="IdVentaCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_Articulo">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_Articulo">
+        <MappingFragment StoreEntitySet="EPK_Articulo">
+          <ScalarProperty Name="FechaFinBloqueo" ColumnName="FechaFinBloqueo" />
+          <ScalarProperty Name="FechaInicioBloqueo" ColumnName="FechaInicioBloqueo" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="ExistenciaAlmacen" ColumnName="ExistenciaAlmacen" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="PrecioExento" ColumnName="PrecioExento" />
+          <ScalarProperty Name="PrecioExentoInicial" ColumnName="PrecioExentoInicial" />
+          <ScalarProperty Name="PrecioGravable" ColumnName="PrecioGravable" />
+          <ScalarProperty Name="PrecioGravableInicial" ColumnName="PrecioGravableInicial" />
+          <ScalarProperty Name="IdTalla" ColumnName="IdTalla" />
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdReferencia" ColumnName="IdReferencia" />
+          <ScalarProperty Name="CodigoArticulo" ColumnName="CodigoArticulo" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteCierreCajero" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteCierreCajero">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteCierreCajero_Result">
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="IdFormaPago" ColumnName="IdFormaPago" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="POS" ColumnName="POS" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="MontoPagos" ColumnName="MontoPagos" />
+          <ScalarProperty Name="MontoCierre" ColumnName="MontoCierre" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteOperacionesCajero" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteOperacionesCajero">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteOperacionesCajero_Result">
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="FormaPago" ColumnName="FormaPago" />
+          <ScalarProperty Name="MontoOperacion" ColumnName="MontoOperacion" />
+          <ScalarProperty Name="Montofisico" ColumnName="Montofisico" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Operacion" ColumnName="Operacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="EPK_TipoPrenda">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_TipoPrenda">
+        <MappingFragment StoreEntitySet="EPK_TipoPrenda">
+          <ScalarProperty Name="RestriccionVenta" ColumnName="RestriccionVenta" />
+          <ScalarProperty Name="Ropa" ColumnName="Ropa" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdTipoPrenda" ColumnName="IdTipoPrenda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_ActualizacionColeccion">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_ActualizacionColeccion">
+        <MappingFragment StoreEntitySet="EPK_ActualizacionColeccion">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+          <ScalarProperty Name="IdColeccion" ColumnName="IdColeccion" />
+          <ScalarProperty Name="IdActualizacion" ColumnName="IdActualizacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_DepositoEncabezado">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_DepositoEncabezado">
+        <MappingFragment StoreEntitySet="EPK_DepositoEncabezado">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="ImagenCataporte" ColumnName="ImagenCataporte" />
+          <ScalarProperty Name="FechaRecogida" ColumnName="FechaRecogida" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="IdUsuarioResponsable2" ColumnName="IdUsuarioResponsable2" />
+          <ScalarProperty Name="IdUsuarioResponsable" ColumnName="IdUsuarioResponsable" />
+          <ScalarProperty Name="IdEntidad" ColumnName="IdEntidad" />
+          <ScalarProperty Name="NumeroTransaccion" ColumnName="NumeroTransaccion" />
+          <ScalarProperty Name="SerialPrecinto" ColumnName="SerialPrecinto" />
+          <ScalarProperty Name="FechaVenta" ColumnName="FechaVenta" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="MontoCheque" ColumnName="MontoCheque" />
+          <ScalarProperty Name="MontoEfectivo" ColumnName="MontoEfectivo" />
+          <ScalarProperty Name="DepositoValores" ColumnName="DepositoValores" />
+          <ScalarProperty Name="FechaDeposito" ColumnName="FechaDeposito" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdDeposito" ColumnName="IdDeposito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ArticuloConsultar" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ArticuloConsultar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ArticuloConsultar_Result">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="CodigoArticulo" ColumnName="CodigoArticulo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Exento" ColumnName="Exento" />
+          <ScalarProperty Name="Existencia" ColumnName="Existencia" />
+          <ScalarProperty Name="ExistenciaAlmacen" ColumnName="ExistenciaAlmacen" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="IdReferencia" ColumnName="IdReferencia" />
+          <ScalarProperty Name="IdTalla" ColumnName="IdTalla" />
+          <ScalarProperty Name="PrecioExento" ColumnName="PrecioExento" />
+          <ScalarProperty Name="PrecioExentoInicial" ColumnName="PrecioExentoInicial" />
+          <ScalarProperty Name="PrecioGravable" ColumnName="PrecioGravable" />
+          <ScalarProperty Name="PrecioGravableInicial" ColumnName="PrecioGravableInicial" />
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="FotoPequena" ColumnName="FotoPequena" />
+          <ScalarProperty Name="CodigoReferencia" ColumnName="CodigoReferencia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="EPK_HistoricoContingencia">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_HistoricoContingencia">
+        <MappingFragment StoreEntitySet="EPK_HistoricoContingencia">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="IdCierreV" ColumnName="IdCierreV" />
+          <ScalarProperty Name="IdCierre" ColumnName="IdCierre" />
+          <ScalarProperty Name="IdAlivioEfectivo" ColumnName="IdAlivioEfectivo" />
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdNotaC" ColumnName="IdNotaC" />
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdCaja" ColumnName="IdCaja" />
+          <ScalarProperty Name="FechaStatus" ColumnName="FechaStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_CierreMaquinaFiscal">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_CierreMaquinaFiscal">
+        <MappingFragment StoreEntitySet="EPK_CierreMaquinaFiscal">
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Manual" ColumnName="Manual" />
+          <ScalarProperty Name="tStamp" ColumnName="tStamp" />
+          <ScalarProperty Name="Zrestantes" ColumnName="Zrestantes" />
+          <ScalarProperty Name="TotalNCZ" ColumnName="TotalNCZ" />
+          <ScalarProperty Name="ExentoNCZ" ColumnName="ExentoNCZ" />
+          <ScalarProperty Name="ImpuestoNCZ" ColumnName="ImpuestoNCZ" />
+          <ScalarProperty Name="BaseImponibleNCZ" ColumnName="BaseImponibleNCZ" />
+          <ScalarProperty Name="TotalFactZ" ColumnName="TotalFactZ" />
+          <ScalarProperty Name="ImpuestoFactZ" ColumnName="ImpuestoFactZ" />
+          <ScalarProperty Name="DescuentoFactZ" ColumnName="DescuentoFactZ" />
+          <ScalarProperty Name="ExentoFactZ" ColumnName="ExentoFactZ" />
+          <ScalarProperty Name="BaseImponibleFactZ" ColumnName="BaseImponibleFactZ" />
+          <ScalarProperty Name="CantidadFacturasZ" ColumnName="CantidadFacturasZ" />
+          <ScalarProperty Name="FacturaHastaZ" ColumnName="FacturaHastaZ" />
+          <ScalarProperty Name="FacturaDesdeZ" ColumnName="FacturaDesdeZ" />
+          <ScalarProperty Name="MontoTotalNC" ColumnName="MontoTotalNC" />
+          <ScalarProperty Name="ImpuestoNC" ColumnName="ImpuestoNC" />
+          <ScalarProperty Name="DescuentoNC" ColumnName="DescuentoNC" />
+          <ScalarProperty Name="ExentoNC" ColumnName="ExentoNC" />
+          <ScalarProperty Name="BaseImponibleNC" ColumnName="BaseImponibleNC" />
+          <ScalarProperty Name="CantidadNC" ColumnName="CantidadNC" />
+          <ScalarProperty Name="NCHasta" ColumnName="NCHasta" />
+          <ScalarProperty Name="NCDesde" ColumnName="NCDesde" />
+          <ScalarProperty Name="MontoTotalFact" ColumnName="MontoTotalFact" />
+          <ScalarProperty Name="ImpuestoFact" ColumnName="ImpuestoFact" />
+          <ScalarProperty Name="DescuentoFact" ColumnName="DescuentoFact" />
+          <ScalarProperty Name="ExentoFact" ColumnName="ExentoFact" />
+          <ScalarProperty Name="BaseImponibleFact" ColumnName="BaseImponibleFact" />
+          <ScalarProperty Name="CantidadFacturas" ColumnName="CantidadFacturas" />
+          <ScalarProperty Name="FacturaHasta" ColumnName="FacturaHasta" />
+          <ScalarProperty Name="FacturaDesde" ColumnName="FacturaDesde" />
+          <ScalarProperty Name="COO" ColumnName="COO" />
+          <ScalarProperty Name="ReporteZ" ColumnName="ReporteZ" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdMaquina" ColumnName="IdMaquina" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdCierreMF" ColumnName="IdCierreMF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EPK_VentasVolumen">
+      <EntityTypeMapping TypeName="SEGANPOSModel.EPK_VentasVolumen">
+        <MappingFragment StoreEntitySet="EPK_VentasVolumen">
+          <ScalarProperty Name="TStamp" ColumnName="TStamp" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="IdUsuarioAprobador" ColumnName="IdUsuarioAprobador" />
+          <ScalarProperty Name="IdFactura" ColumnName="IdFactura" />
+          <ScalarProperty Name="IdTienda" ColumnName="IdTienda" />
+          <ScalarProperty Name="IdVentasVolumen" ColumnName="IdVentasVolumen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ReporteAperturaCajero" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ReporteAperturaCajero">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_ReporteAperturaCajero_Result">
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="IdApertura" ColumnName="IdApertura" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+          <ScalarProperty Name="Denominacion" ColumnName="Denominacion" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_CierreMaquinaFiscalValidar" FunctionName="EPKSystemPOSModel.Store.EPK_sp_CierreMaquinaFiscalValidar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SEGANPOSModel.EPK_sp_CierreMaquinaFiscalValidar_Result">
+          <ScalarProperty Name="SerialMF" ColumnName="SerialMF" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MontoSistemaF" ColumnName="MontoSistemaF" />
+          <ScalarProperty Name="MontoReportadoF" ColumnName="MontoReportadoF" />
+          <ScalarProperty Name="DiferenciaF" ColumnName="DiferenciaF" />
+          <ScalarProperty Name="MontoSistemaNC" ColumnName="MontoSistemaNC" />
+          <ScalarProperty Name="MontoReportadONC" ColumnName="MontoReportadONC" />
+          <ScalarProperty Name="DiferenciaNC" ColumnName="DiferenciaNC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="EPK_sp_ValidarArticuloObsequio" FunctionName="EPKSystemPOSModel.Store.EPK_sp_ValidarArticuloObsequio" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SIV_ActualizarFacturas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentoFactura" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarFacturasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ActualizarFacturasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetalleFactura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentoFactura" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetalleFacturaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SIV_ActualizarDetalleFacturaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ActualizarEmpleados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlEmpleado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ActualizarEmpleadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ActualizarEmpleadosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarComisiones">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlComisiones" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarComisionesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SIV_ActualizarComisionesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarNotasDeCredito">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlNC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarNotasDeCreditoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ActualizarNotasDeCreditoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetallesNC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlDetalleNC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetallesNCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SIV_ActualizarDetallesNCResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarLOGMF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlLOGMF" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarLOGMFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SIV_ActualizarLOGMFResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ActualizarClientes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmlClientes" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ActualizarClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ActualizarClientesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_VerificarConexión">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodTienda" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaHora" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_VerificarConexiónResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EPK_VerificarConexiónResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IngresarMaestroDeVentasOnline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaestroVentasOnline" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IngresarMaestroDeVentasOnlineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IngresarMaestroDeVentasOnlineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IngresarDetalleDeVentasOnline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DetalleVentasOnline" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IngresarDetalleDeVentasOnlineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IngresarDetalleDeVentasOnlineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ConsultarOrdenesDeCompra">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="facturadas" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ConsultarOrdenesDeCompraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ConsultarOrdenesDeCompraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ConsultarDetallesOrdenesDeCompra">
+        <s:complexType />
+      </s:element>
+      <s:element name="SIV_ConsultarDetallesOrdenesDeCompraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ConsultarDetallesOrdenesDeCompraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarOrdenesDeCompra">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrdenesDeCompra" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarOrdenesDeCompraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ActualizarOrdenesDeCompraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarVentasConsolidadas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ventas" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarVentasConsolidadasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SIV_ActualizarVentasConsolidadasResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarMaestroOC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrdenesDeCompra" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarMaestroOCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ActualizarMaestroOCResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetalleOrdenesDeCompra">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrdenesDeCompra" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SIV_ActualizarDetalleOrdenesDeCompraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SIV_ActualizarDetalleOrdenesDeCompraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarTiendas">
+        <s:complexType />
+      </s:element>
+      <s:element name="EPK_ConsultarTiendasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ConsultarTiendasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarExistencias">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodArticulo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoColeccion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarExistenciasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ConsultarExistenciasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarDepartamento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoDepartamento" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarDepartamentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ConsultarDepartamentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IdEmpleado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IdDepartamento" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ConsultarEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdCliente" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoDocumento" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Apellido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPK_ConsultarClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPK_ConsultarClienteResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPKSEGAN_ClienteActualizar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaClientes" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EPKSEGAN_ClienteActualizarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EPKSEGAN_ClienteActualizarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SIV_ActualizarFacturasSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarFacturas" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarFacturasSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarFacturasResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetalleFacturaSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetalleFactura" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetalleFacturaSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetalleFacturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ActualizarEmpleadosSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ActualizarEmpleados" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ActualizarEmpleadosSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ActualizarEmpleadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarComisionesSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarComisiones" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarComisionesSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarComisionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarNotasDeCreditoSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarNotasDeCredito" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarNotasDeCreditoSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarNotasDeCreditoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetallesNCSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetallesNC" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetallesNCSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetallesNCResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarLOGMFSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarLOGMF" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarLOGMFSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarLOGMFResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ActualizarClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ActualizarClientes" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ActualizarClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ActualizarClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_VerificarConexiónSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_VerificarConexión" />
+  </wsdl:message>
+  <wsdl:message name="EPK_VerificarConexiónSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_VerificarConexiónResponse" />
+  </wsdl:message>
+  <wsdl:message name="IngresarMaestroDeVentasOnlineSoapIn">
+    <wsdl:part name="parameters" element="tns:IngresarMaestroDeVentasOnline" />
+  </wsdl:message>
+  <wsdl:message name="IngresarMaestroDeVentasOnlineSoapOut">
+    <wsdl:part name="parameters" element="tns:IngresarMaestroDeVentasOnlineResponse" />
+  </wsdl:message>
+  <wsdl:message name="IngresarDetalleDeVentasOnlineSoapIn">
+    <wsdl:part name="parameters" element="tns:IngresarDetalleDeVentasOnline" />
+  </wsdl:message>
+  <wsdl:message name="IngresarDetalleDeVentasOnlineSoapOut">
+    <wsdl:part name="parameters" element="tns:IngresarDetalleDeVentasOnlineResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ConsultarOrdenesDeCompraSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ConsultarOrdenesDeCompra" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ConsultarOrdenesDeCompraSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ConsultarOrdenesDeCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ConsultarDetallesOrdenesDeCompraSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ConsultarDetallesOrdenesDeCompra" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ConsultarDetallesOrdenesDeCompraSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ConsultarDetallesOrdenesDeCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarOrdenesDeCompraSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarOrdenesDeCompra" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarOrdenesDeCompraSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarOrdenesDeCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarVentasConsolidadasSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarVentasConsolidadas" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarVentasConsolidadasSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarVentasConsolidadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarMaestroOCSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarMaestroOC" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarMaestroOCSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarMaestroOCResponse" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetalleOrdenesDeCompraSoapIn">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetalleOrdenesDeCompra" />
+  </wsdl:message>
+  <wsdl:message name="SIV_ActualizarDetalleOrdenesDeCompraSoapOut">
+    <wsdl:part name="parameters" element="tns:SIV_ActualizarDetalleOrdenesDeCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarTiendasSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarTiendas" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarTiendasSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarTiendasResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarExistenciasSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarExistencias" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarExistenciasSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarExistenciasResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarDepartamentoSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarDepartamento" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarDepartamentoSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarDepartamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarCliente" />
+  </wsdl:message>
+  <wsdl:message name="EPK_ConsultarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:EPK_ConsultarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="EPKSEGAN_ClienteActualizarSoapIn">
+    <wsdl:part name="parameters" element="tns:EPKSEGAN_ClienteActualizar" />
+  </wsdl:message>
+  <wsdl:message name="EPKSEGAN_ClienteActualizarSoapOut">
+    <wsdl:part name="parameters" element="tns:EPKSEGAN_ClienteActualizarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceEPKSoap">
+    <wsdl:operation name="SIV_ActualizarFacturas">
+      <wsdl:input message="tns:SIV_ActualizarFacturasSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarFacturasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleFactura">
+      <wsdl:input message="tns:SIV_ActualizarDetalleFacturaSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarDetalleFacturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarEmpleados">
+      <wsdl:input message="tns:EPK_ActualizarEmpleadosSoapIn" />
+      <wsdl:output message="tns:EPK_ActualizarEmpleadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarComisiones">
+      <wsdl:input message="tns:SIV_ActualizarComisionesSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarComisionesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarNotasDeCredito">
+      <wsdl:input message="tns:SIV_ActualizarNotasDeCreditoSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarNotasDeCreditoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetallesNC">
+      <wsdl:input message="tns:SIV_ActualizarDetallesNCSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarDetallesNCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarLOGMF">
+      <wsdl:input message="tns:SIV_ActualizarLOGMFSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarLOGMFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarClientes">
+      <wsdl:input message="tns:EPK_ActualizarClientesSoapIn" />
+      <wsdl:output message="tns:EPK_ActualizarClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_VerificarConexión">
+      <wsdl:input message="tns:EPK_VerificarConexiónSoapIn" />
+      <wsdl:output message="tns:EPK_VerificarConexiónSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarMaestroDeVentasOnline">
+      <wsdl:input message="tns:IngresarMaestroDeVentasOnlineSoapIn" />
+      <wsdl:output message="tns:IngresarMaestroDeVentasOnlineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarDetalleDeVentasOnline">
+      <wsdl:input message="tns:IngresarDetalleDeVentasOnlineSoapIn" />
+      <wsdl:output message="tns:IngresarDetalleDeVentasOnlineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarOrdenesDeCompra">
+      <wsdl:input message="tns:SIV_ConsultarOrdenesDeCompraSoapIn" />
+      <wsdl:output message="tns:SIV_ConsultarOrdenesDeCompraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarDetallesOrdenesDeCompra">
+      <wsdl:input message="tns:SIV_ConsultarDetallesOrdenesDeCompraSoapIn" />
+      <wsdl:output message="tns:SIV_ConsultarDetallesOrdenesDeCompraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarOrdenesDeCompra">
+      <wsdl:input message="tns:SIV_ActualizarOrdenesDeCompraSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarOrdenesDeCompraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarVentasConsolidadas">
+      <wsdl:input message="tns:SIV_ActualizarVentasConsolidadasSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarVentasConsolidadasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarMaestroOC">
+      <wsdl:input message="tns:SIV_ActualizarMaestroOCSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarMaestroOCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleOrdenesDeCompra">
+      <wsdl:input message="tns:SIV_ActualizarDetalleOrdenesDeCompraSoapIn" />
+      <wsdl:output message="tns:SIV_ActualizarDetalleOrdenesDeCompraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarTiendas">
+      <wsdl:input message="tns:EPK_ConsultarTiendasSoapIn" />
+      <wsdl:output message="tns:EPK_ConsultarTiendasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarExistencias">
+      <wsdl:input message="tns:EPK_ConsultarExistenciasSoapIn" />
+      <wsdl:output message="tns:EPK_ConsultarExistenciasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarDepartamento">
+      <wsdl:input message="tns:EPK_ConsultarDepartamentoSoapIn" />
+      <wsdl:output message="tns:EPK_ConsultarDepartamentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarEmpleado">
+      <wsdl:input message="tns:EPK_ConsultarEmpleadoSoapIn" />
+      <wsdl:output message="tns:EPK_ConsultarEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarCliente">
+      <wsdl:input message="tns:EPK_ConsultarClienteSoapIn" />
+      <wsdl:output message="tns:EPK_ConsultarClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EPKSEGAN_ClienteActualizar">
+      <wsdl:input message="tns:EPKSEGAN_ClienteActualizarSoapIn" />
+      <wsdl:output message="tns:EPKSEGAN_ClienteActualizarSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceEPKSoap" type="tns:ServiceEPKSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SIV_ActualizarFacturas">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarFacturas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleFactura">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarDetalleFactura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarEmpleados">
+      <soap:operation soapAction="http://tempuri.org/EPK_ActualizarEmpleados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarComisiones">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarComisiones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarNotasDeCredito">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarNotasDeCredito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetallesNC">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarDetallesNC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarLOGMF">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarLOGMF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarClientes">
+      <soap:operation soapAction="http://tempuri.org/EPK_ActualizarClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_VerificarConexión">
+      <soap:operation soapAction="http://tempuri.org/EPK_VerificarConexión" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarMaestroDeVentasOnline">
+      <soap:operation soapAction="http://tempuri.org/IngresarMaestroDeVentasOnline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarDetalleDeVentasOnline">
+      <soap:operation soapAction="http://tempuri.org/IngresarDetalleDeVentasOnline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarOrdenesDeCompra">
+      <soap:operation soapAction="http://tempuri.org/SIV_ConsultarOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarDetallesOrdenesDeCompra">
+      <soap:operation soapAction="http://tempuri.org/SIV_ConsultarDetallesOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarOrdenesDeCompra">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarVentasConsolidadas">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarVentasConsolidadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarMaestroOC">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarMaestroOC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleOrdenesDeCompra">
+      <soap:operation soapAction="http://tempuri.org/SIV_ActualizarDetalleOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarTiendas">
+      <soap:operation soapAction="http://tempuri.org/EPK_ConsultarTiendas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarExistencias">
+      <soap:operation soapAction="http://tempuri.org/EPK_ConsultarExistencias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarDepartamento">
+      <soap:operation soapAction="http://tempuri.org/EPK_ConsultarDepartamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarEmpleado">
+      <soap:operation soapAction="http://tempuri.org/EPK_ConsultarEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarCliente">
+      <soap:operation soapAction="http://tempuri.org/EPK_ConsultarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPKSEGAN_ClienteActualizar">
+      <soap:operation soapAction="http://tempuri.org/EPKSEGAN_ClienteActualizar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceEPKSoap12" type="tns:ServiceEPKSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SIV_ActualizarFacturas">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarFacturas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleFactura">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarDetalleFactura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarEmpleados">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ActualizarEmpleados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarComisiones">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarComisiones" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarNotasDeCredito">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarNotasDeCredito" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetallesNC">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarDetallesNC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarLOGMF">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarLOGMF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ActualizarClientes">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ActualizarClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_VerificarConexión">
+      <soap12:operation soapAction="http://tempuri.org/EPK_VerificarConexión" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarMaestroDeVentasOnline">
+      <soap12:operation soapAction="http://tempuri.org/IngresarMaestroDeVentasOnline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarDetalleDeVentasOnline">
+      <soap12:operation soapAction="http://tempuri.org/IngresarDetalleDeVentasOnline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarOrdenesDeCompra">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ConsultarOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ConsultarDetallesOrdenesDeCompra">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ConsultarDetallesOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarOrdenesDeCompra">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarVentasConsolidadas">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarVentasConsolidadas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarMaestroOC">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarMaestroOC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIV_ActualizarDetalleOrdenesDeCompra">
+      <soap12:operation soapAction="http://tempuri.org/SIV_ActualizarDetalleOrdenesDeCompra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarTiendas">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ConsultarTiendas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarExistencias">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ConsultarExistencias" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarDepartamento">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ConsultarDepartamento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ConsultarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPK_ConsultarCliente">
+      <soap12:operation soapAction="http://tempuri.org/EPK_ConsultarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EPKSEGAN_ClienteActualizar">
+      <soap12:operation soapAction="http://tempuri.org/EPKSEGAN_ClienteActualizar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceEPK">
+    <wsdl:port name="ServiceEPKSoap" binding="tns:ServiceEPKSoap">
+      <soap:address location="http://200.85.69.230:8080/WSSIV/ServiceEPK.ASMX" />
+    </wsdl:port>
+    <wsdl:port name="ServiceEPKSoap12" binding="tns:ServiceEPKSoap12">
+      <soap12:address location="http://200.85.69.230:8080/WSSIV/ServiceEPK.ASMX" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,14 @@
+2016-02-03 16:14:42.6816 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 16:20:51.6404 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 16:25:02.1865 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 16:52:11.6550 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 16:53:51.7260 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 17:03:14.8129 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 17:06:02.9367 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 17:07:28.0537 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 17:22:09.9920 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 18:14:43.0845 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 18:14:51.1161 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 18:14:57.9355 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 18:15:47.5744 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-03 18:16:00.6320 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info

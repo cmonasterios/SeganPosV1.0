@@ -1,0 +1,3 @@
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\bin\Release\UserInactivityMonitoring.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\bin\Release\UserInactivityMonitoring.xml
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\obj\Release\UserInactivityMonitoring.dll

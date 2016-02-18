@@ -1,0 +1,31 @@
+2016-02-05 10:51:02.1835 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 10:52:08.2818 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 10:55:24.0269 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-05 11:10:07.2865 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 11:12:06.0023 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 11:35:02.4245 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 11:38:27.3615 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 12:03:28.9390 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-05 12:03:37.3446 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-05 12:03:45.5670 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-05 12:04:39.1111 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 13:56:49.9401 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:03:22.5070 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:06:53.8936 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:13:31.8735 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:18:01.1655 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:42:20.5675 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 14:47:25.3195 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:02:10.3920 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:03:39.9020 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:25:21.6760 | Info | Mensaje = Usuario RONALD PÉREZ (rperez) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:25:32.5790 | Info | Mensaje = Usuario RONALD PÉREZ (rperez) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 12
+2016-02-05 15:25:47.0180 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:30:47.7940 | Info | Mensaje = Usuario RONALD PÉREZ (rperez) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:30:52.5810 | Info | Mensaje = Usuario RONALD PÉREZ (rperez) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 12
+2016-02-05 15:31:10.3120 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:34:56.4280 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:58:52.0786 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 15:58:58.3703 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 16:00:20.5888 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-05 16:06:25.9693 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info

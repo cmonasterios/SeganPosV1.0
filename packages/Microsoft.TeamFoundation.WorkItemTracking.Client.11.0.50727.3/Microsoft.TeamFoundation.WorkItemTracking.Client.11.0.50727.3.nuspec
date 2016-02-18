@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.TeamFoundation.WorkItemTracking.Client</id>
+    <version>11.0.50727.3</version>
+    <title>Microsoft TeamFoundation Client</title>
+    <authors>Yibeltal Hunegnaw</authors>
+    <owners>Yibeltal Hunegnaw</owners>
+    <projectUrl>http://msdn.microsoft.com/en-us/library/bb141853.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft TeamFoundation WorkItemTracking Client provides the APIs to connect to Visual Studio Team Foundation Server and to access data about team project collections and team projects.</description>
+    <tags>TFS Microsoft TeamFoundation WorkItemTracking Client</tags>
+  </metadata>
+</package>

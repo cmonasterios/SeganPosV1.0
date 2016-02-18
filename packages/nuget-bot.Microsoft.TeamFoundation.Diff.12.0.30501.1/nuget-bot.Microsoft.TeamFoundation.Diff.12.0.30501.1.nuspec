@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.TeamFoundation.Diff</id>
+    <version>12.0.30501.1</version>
+    <title>nuget-bot.Microsoft.TeamFoundation.Diff</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.diff.aspx</licenseUrl>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.diff.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.TeamFoundation.Diff</description>
+    <releaseNotes />
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft TeamFoundation Diff nuget-bot</tags>
+    <dependencies>
+      <dependency id="nuget-bot.Microsoft.TeamFoundation.Common" version="12.0.30501.1" />
+    </dependencies>
+  </metadata>
+</package>
