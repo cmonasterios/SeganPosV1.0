@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrinterManager</name>
+    </assembly>
+    <members>
+        <member name="M:PrinterManager.Providers.Bematech32.Extension.classBematech32.Analiza_RetornoImpresora">
+            <summary>
+            Función para analizar los retorno de la impresora (ST1 y ST2).
+            </summary>
+        </member>
+        <member name="M:PrinterManager.Providers.Bematech32.Extension.classBematech32.Analiza_iRetorno(System.Int32)">
+            <summary>
+            Função que analiza o retorno da função.
+            </summary>
+            <param name="IRetorno">Inteiro com o valor a ser analizado.</param>
+        </member>
+        <member name="M:PrinterManager.Providers.Bematech64.Extension.classBematech64.Analiza_RetornoImpresora">
+            <summary>
+            Función para Analizar los retorno de la impresora (ST1 y ST2).
+            </summary>
+        </member>
+        <member name="M:PrinterManager.Providers.Bematech64.Extension.classBematech64.Analiza_iRetorno(System.Int32)">
+            <summary>
+            Função que analiza o retorno da função.
+            </summary>
+            <param name="IRetorno">Inteiro com o valor a ser analizado.</param>
+        </member>
+    </members>
+</doc>

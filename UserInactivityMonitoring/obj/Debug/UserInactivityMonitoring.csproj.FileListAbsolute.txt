@@ -1,0 +1,5 @@
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\bin\Debug\UserInactivityMonitoring.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\bin\Debug\UserInactivityMonitoring.pdb
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\bin\Debug\UserInactivityMonitoring.xml
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\obj\Debug\UserInactivityMonitoring.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\UserInactivityMonitoring\obj\Debug\UserInactivityMonitoring.pdb

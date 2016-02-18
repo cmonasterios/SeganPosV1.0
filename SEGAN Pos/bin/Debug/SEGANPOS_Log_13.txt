@@ -1,0 +1,249 @@
+2016-01-25 09:57:49.4797 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:00:05.9633 | Info | Mensaje = Se consultó reporte frmPagosConsolidados , Filtros: 18/12/2015 - 18/01/2016  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 10:00:36.6214 | Info | Mensaje = Se exportó reporte frmPagosConsolidados , Filtros: 18/12/2015 - 18/01/2016  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 10:00:46.8174 | Info | Mensaje = Se exportó reporte frmPagosConsolidados , Filtros: 18/12/2015 - 18/01/2016  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 10:04:04.1191 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 10:04:32.4709 | Info | Mensaje = Usuario nvillegas: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:04:38.0015 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:04:38.2615 | Info | Mensaje = El usuario NEILIM Villegas (nvillegas) no ha registrado su entrada en el biométrico | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:08:07.4711 | Info | Mensaje = Usuario nvillegas: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:08:18.3289 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:08:18.4199 | Info | Mensaje = El usuario NEILIM Villegas (nvillegas) no ha registrado su entrada en el biométrico | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:16:18.4921 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:16:19.3610 | Info | Mensaje = El usuario NEILIM Villegas (nvillegas) no ha registrado su entrada en el biométrico | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:16:56.2263 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:18:54.5833 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 10:21:46.8783 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-01-25 10:21:46.9813 | Info | Mensaje = Autorizado por: jdelgado, Acción: Debloqueo_Cliente, Nombre Técnico: frmFacturar. ¿Desea desbloquear la restrición de compras al mayor para el cliente:  V-16402255                      ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-01-25 10:35:02.6843 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 11:34:55.1841 | Info | Mensaje = Se consultó reporte frmReferenciasSinMovimiento , Filtros: 21/12/2015 - 21/12/2015  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 13:41:14.7826 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 14:16:33.1402 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 14:19:14.7874 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:19:51.2880 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:19:51.5931 | Error | Mensaje = Error en SEGAN_POS.DAL.AperturaCajero.Total | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.AperturaCajero.Total(DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\AperturaCajero.cs:line 53
+2016-01-25 14:20:18.7658 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:20:19.0768 | Error | Mensaje = Error en SEGAN_POS.DAL.AperturaCajero.Total | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.AperturaCajero.Total(DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\AperturaCajero.cs:line 53
+2016-01-25 14:20:23.8993 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:20:37.6897 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:20:37.9977 | Error | Mensaje = Error en SEGAN_POS.DAL.AperturaCajero.Total | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.AperturaCajero.Total(DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\AperturaCajero.cs:line 53
+2016-01-25 14:20:46.5806 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoEfectivo | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoEfectivo(Int32 idUsuario, DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 627
+2016-01-25 14:20:46.8846 | Error | Mensaje = Error en SEGAN_POS.DAL.AperturaCajero.Total | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.AperturaCajero.Total(DateTime fechaIni, DateTime fechaFin) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\AperturaCajero.cs:line 53
+2016-01-25 14:33:28.6138 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 14:33:44.2403 | Error | Mensaje = Error en SEGAN_POS.DAL.CierreVentas.ObtenerObservacion | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEGAN_POS.DAL.CierreVentas.ObtenerObservacion(DateTime fecha) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\CierreVentas.cs:line 180
+2016-01-25 16:03:06.4476 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:06:25.5756 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:09:00.7214 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:14:18.2807 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:15:58.4458 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:17:05.6135 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:19:12.5742 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:25:57.4891 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:29:15.3167 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:31:26.4637 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:34:50.6632 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:36:35.7117 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:39:14.2635 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:39:19.7301 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:45:21.3485 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:50:13.9645 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:51:45.3245 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 16:53:47.6315 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:01:31.5084 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:07:47.4450 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:07:58.1891 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:08:05.7468 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 691
+2016-01-25 17:08:34.1417 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 17:09:35.7238 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 691
+2016-01-25 17:09:47.3790 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 17:18:22.9615 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:18:59.0275 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 691
+2016-01-25 17:19:12.7095 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 17:19:34.1285 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 691
+2016-01-25 17:19:40.7875 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 17:34:20.8865 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-01-25 17:57:29.1885 | Info | Mensaje = Usuario jdelgado: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-25 17:57:33.7705 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4

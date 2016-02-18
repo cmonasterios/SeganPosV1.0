@@ -1,0 +1,116 @@
+2016-02-11 10:17:43.9748 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 10:21:49.8280 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 10:25:04.5639 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 11:36:11.5411 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 11:49:40.0805 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 11:54:00.5424 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 11:54:43.7199 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 11:55:57.5969 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 12:03:58.2206 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 12:43:32.9892 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 12:45:18.9761 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:00:09.5028 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:03:08.6226 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:14:16.1993 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:15:31.1703 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:16:57.8926 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:19:54.1786 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:21:18.6457 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:30:37.7685 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:32:22.8365 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:34:53.9255 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:40:30.4302 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:41:19.3620 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:42:34.5701 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:57:42.7958 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 14:58:44.9247 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:03:16.4348 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:12:27.7520 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:20:47.9290 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:24:23.3357 | Info | Mensaje = Se realizó con éxito el cierre | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:24:30.6438 | Info | Mensaje = CierreReporteZAutomatico realizado por: Jeannette Delgado(jdelgado). Serial impresora: 1FC2309151. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:24:31.3161 | Info | Mensaje = Reporte Z emitido por: Jeannette Delgado(jdelgado). Serial impresora: 1FC2309151. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:24:51.3541 | Info | Mensaje = CierreReporteZ realizado por: Jeannette Delgado(jdelgado). Serial impresora: 1FC2309151. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:34:21.8293 | Info | Mensaje = Factura cancelada por: jdelgado , Acción: Cancelar_Factura , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:34:44.1846 | Info | Mensaje = Usuario nvillegas: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:34:49.6841 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:34:49.9851 | Info | Mensaje = El usuario NEILIM Villegas (nvillegas) no ha registrado su entrada en el biométrico | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:37:43.9135 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:45:57.6219 | Info | Mensaje = Factura #658 creada por: Jeannette Delgado(jdelgado). | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:46:04.3946 | Info | Mensaje = Factura #658 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-11T15:46:03.2455103-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:46:09.3691 | Info | Mensaje = Factura #658 actualizada por: Jeannette Delgado(jdelgado). Datos: <audit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.tempuri.org/ef/audit/2.0">
+  <username>cmonasterio</username>
+  <date>2016-02-11T15:46:09.3681225-04:30</date>
+  <entities />
+</audit> | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:46:09.9271 | Info | Mensaje = Factura #658, Procesada por: jdelgado , Nombre Técnico: frmFacturar  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:50:25.2137 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 4 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 692
+2016-02-11 15:52:15.3007 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:52:19.4981 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-02-11 15:52:40.8802 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 15:53:09.4331 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 15:53:09.5121 | Info | Mensaje = Autorizado por: jdelgado, Acción: Cierre_Cajero, Nombre Técnico: frmMenuEfec. Ingrese las credenciales del personal autorizado | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 15:53:10.0641 | Error | Mensaje = Error en SEGAN_POS.DAL.Facturas.MontoPendiente | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 18 | Excepcion = System.InvalidOperationException: The cast to value type 'System.Decimal' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.GetColumnValueWithErrorHandling[TColumn](Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Sum[TSource](IQueryable`1 source, Expression`1 selector)
+   at SEGAN_POS.DAL.Facturas.MontoPendiente(Int32 idUsuario, Nullable`1 fechaIni) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\Facturas.cs:line 692
+2016-02-11 15:53:22.0863 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 15:53:22.1553 | Info | Mensaje = Autorizado por: jdelgado, Acción: Visualizar, Nombre Técnico: frmCierreCajero. ¿Desea visualizar la información oculta? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 15:54:37.6429 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 15:54:37.7179 | Info | Mensaje = Autorizado por: jdelgado, Acción: Visualizar, Nombre Técnico: frmCierreCajero. ¿Desea visualizar la información oculta? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:01:10.2642 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:01:10.3472 | Info | Mensaje = Autorizado por: jdelgado, Acción: Visualizar, Nombre Técnico: frmCierreCajero. ¿Desea visualizar la información oculta? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:01:57.3679 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:01:57.4539 | Info | Mensaje = Autorizado por: jdelgado, Acción: Consultar, Nombre Técnico: frmFacturar. Ingrese las credenciales del personal autorizado | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:12:12.4114 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:12:12.4784 | Info | Mensaje = Autorizado por: jdelgado, Acción: Eliminar_Item, Nombre Técnico: frmFacturar. ¿ Eliminar artículos ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:14:57.2248 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 16:18:52.5817 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 16:30:19.2521 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 16:33:01.6903 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 16:49:16.1383 | Info | Mensaje = Usuario nvillegas: clave incorrecta | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 16:49:23.0420 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:06:10.9680 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:19:03.4134 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:33.1894 | Error | Mensaje = Error en SEGAN_POS.DAL.FacturasEspera.Borrar | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 18 | Excepcion = System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEGAN_POS.DAL.FacturasEspera.Borrar(Int32 id) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\FacturasEspera.cs:line 188
+2016-02-11 17:26:46.7408 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:46.8528 | Info | Mensaje = Autorizado por: jdelgado, Acción: Cancelar_Factura, Nombre Técnico: frmFacturar. Se requiere autorización para cancelar las facturas en espera | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:47.0878 | Error | Mensaje = Error en SEGAN_POS.DAL.FacturasEspera.Actualizar | Origen = SEGAN_POS.NLogLogger.Error | Usuario = 18 | Excepcion = System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEGAN_POS.DAL.FacturasEspera.Actualizar(EPK_FacturaEsperaEncabezado factura) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\DAL\FacturasEspera.cs:line 163
+2016-02-11 17:26:55.9707 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:56.0437 | Info | Mensaje = Autorizado por: jdelgado, Acción: Cancelar_Factura, Nombre Técnico: frmFacturar. ¿ Autorizar la cancelación de la factura ? | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:56.2517 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) desconectado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:26:56.4187 | Error | Mensaje = Error en SEGAN_POS.frmFacturar.CargarFactura | Origen = SEGAN_POS.NLogLogger.Error | Excepcion = System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEGAN_POS.frmFacturar.CargarFactura(EPK_FacturaEsperaEncabezado facEspera) in c:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\SEGAN Pos\Facturacion\frmFacturar.cs:line 1940
+2016-02-11 17:28:43.9785 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 17:46:23.2828 | Info | Mensaje = Usuario NEILIM Villegas (nvillegas) autenticado. | Origen = SEGAN_POS.NLogLogger.Info
+2016-02-11 17:52:07.8747 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18
+2016-02-11 17:52:07.9887 | Info | Mensaje = Autorizado por: jdelgado, Acción: Cancelar_Factura, Nombre Técnico: frmFacturar. Finalizó el tiempo de espera de la factura Nº 344. Se procederá a cancelar la factura. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 18

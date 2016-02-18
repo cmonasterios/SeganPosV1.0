@@ -1,0 +1,4 @@
+2016-01-22 09:19:47.5120 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-22 10:29:27.4813 | Info | Mensaje = Se consultó reporte frmPagosConsolidados , Filtros: 21/12/2015 - 21/12/2015  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-22 10:29:37.6404 | Info | Mensaje = Se exportó reporte frmPagosConsolidados , Filtros: 21/12/2015 - 21/12/2015  | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4
+2016-01-22 11:20:20.5470 | Info | Mensaje = Usuario Jeannette Delgado (jdelgado) autenticado. | Origen = SEGAN_POS.NLogLogger.Info | Usuario = 4

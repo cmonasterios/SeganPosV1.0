@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{fab23158-0ab8-41a2-9c48-3b5ccca8639a}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DB</RootNamespace>
+    <AssemblyName>DB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!-- VS10 without SP1 will not have VisualStudioVersion set, so do that here -->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Default to the v10.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Rules\" />
+    <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="Scripts" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\EPK_Zonas.sql" />
+    <Build Include="dbo\Tables\EPK_UsuarioTienda.sql" />
+    <Build Include="dbo\Tables\EPK_UsuarioBackup.sql" />
+    <Build Include="dbo\Tables\EPK_UsuarioApp_BackupData.sql" />
+    <Build Include="dbo\Tables\EPK_UsuarioApp.sql" />
+    <Build Include="dbo\Tables\EPK_Usuario.sql" />
+    <Build Include="dbo\Tables\EPK_TipoTiendaFormaPago.sql" />
+    <Build Include="dbo\Tables\EPK_TipoTienda.sql" />
+    <Build Include="dbo\Tables\EPK_TipoTerminal.sql" />
+    <Build Include="dbo\Tables\EPK_TipoTemporada.sql" />
+    <Build Include="dbo\Tables\EPK_TipoServicios.sql" />
+    <Build Include="dbo\Tables\EPK_TipoRegion.sql" />
+    <Build Include="dbo\Tables\EPK_TipoPrenda.sql" />
+    <Build Include="dbo\Tables\EPK_TipoParentesco.sql" />
+    <Build Include="dbo\Tables\EPK_TipoInsumo.sql" />
+    <Build Include="dbo\Tables\EPK_TipoFuncionalidad.sql" />
+    <Build Include="dbo\Tables\EPK_TipoEntrada.sql" />
+    <Build Include="dbo\Tables\EPK_TipoDocumento.sql" />
+    <Build Include="dbo\Tables\EPK_TipoDispositivo.sql" />
+    <Build Include="dbo\Tables\EPK_TipoDescuento.sql" />
+    <Build Include="dbo\Tables\EPK_TiendaTelefono.sql" />
+    <Build Include="dbo\Tables\EPK_Tienda_old.sql" />
+    <Build Include="dbo\Tables\EPK_Tienda.sql" />
+    <Build Include="dbo\Tables\EPK_TerminalZona.sql" />
+    <Build Include="dbo\Tables\EPK_TerminalGrupo.sql" />
+    <Build Include="dbo\Tables\EPK_Terminal.sql" />
+    <Build Include="dbo\Tables\EPK_TemporadaGrupo.sql" />
+    <Build Include="dbo\Tables\EPK_Temporada.sql" />
+    <Build Include="dbo\Tables\EPK_Tema.sql" />
+    <Build Include="dbo\Tables\EPK_Talla.sql" />
+    <Build Include="dbo\Tables\EPK_SeguridadPlantillaApp.sql" />
+    <Build Include="dbo\Tables\EPK_SeguridadPlantilla.sql" />
+    <Build Include="dbo\Tables\EPK_RegionPais.sql" />
+    <Build Include="dbo\Tables\EPK_Region.sql" />
+    <Build Include="dbo\Tables\EPK_Referencia.sql" />
+    <Build Include="dbo\Tables\EPK_Privilegio.sql" />
+    <Build Include="dbo\Tables\EPK_PrioridadModulo.sql" />
+    <Build Include="dbo\Tables\EPK_PreguntaSecreta.sql" />
+    <Build Include="dbo\Tables\EPK_POSTienda.sql" />
+    <Build Include="dbo\Tables\EPK_POS.sql" />
+    <Build Include="dbo\Tables\EPK_Politica.sql" />
+    <Build Include="dbo\Tables\EPK_PerfilObjetos.sql" />
+    <Build Include="dbo\Tables\EPK_PerfilAccion.sql" />
+    <Build Include="dbo\Tables\EPK_Perfil.sql" />
+    <Build Include="dbo\Tables\EPK_Parentesco.sql" />
+    <Build Include="dbo\Tables\EPK_ParametrosSistema.sql" />
+    <Build Include="dbo\Tables\EPK_Pais.sql" />
+    <Build Include="dbo\Tables\EPK_PaginasUsuario.sql" />
+    <Build Include="dbo\Tables\EPK_Organizacion.sql" />
+    <Build Include="dbo\Tables\EPK_ObjetoEstatus.sql" />
+    <Build Include="dbo\Tables\EPK_ObjetoAccion.sql" />
+    <Build Include="dbo\Tables\EPK_Objeto.sql" />
+    <Build Include="dbo\Tables\EPK_NotaCreditoEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_NotaCreditoDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_NivelPerfil.sql" />
+    <Build Include="dbo\Tables\EPK_NCSolicitudEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_NCSolicitudDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_MotivoDevolucion.sql" />
+    <Build Include="dbo\Tables\EPK_MotivoDescuento.sql" />
+    <Build Include="dbo\Tables\EPK_Modulo.sql" />
+    <Build Include="dbo\Tables\EPK_ModoVerificacion.sql" />
+    <Build Include="dbo\Tables\EPK_Mes.sql" />
+    <Build Include="dbo\Tables\EPK_MensajeTerminal.sql" />
+    <Build Include="dbo\Tables\EPK_Mensaje.sql" />
+    <Build Include="dbo\Tables\EPK_MarcaDispositivo.sql" />
+    <Build Include="dbo\Tables\EPK_MaquinaFiscal.sql" />
+    <Build Include="dbo\Tables\EPK_LogUsuarioClave.sql" />
+    <Build Include="dbo\Tables\EPK_LogTransacciones.sql" />
+    <Build Include="dbo\Tables\EPK_LogSesiones.sql" />
+    <Build Include="dbo\Tables\EPK_LogErrores.sql" />
+    <Build Include="dbo\Tables\EPK_LogActualizacion.sql" />
+    <Build Include="dbo\Tables\EPK_Log_Sesiones.sql" />
+    <Build Include="dbo\Tables\EPK_Localidad.sql" />
+    <Build Include="dbo\Tables\EPK_Lenguaje.sql" />
+    <Build Include="dbo\Tables\EPK_Lecturas.sql" />
+    <Build Include="dbo\Tables\EPK_Insumos.sql" />
+    <Build Include="dbo\Tables\EPK_HuellaEmpleado.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoNotaCreditoEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoNotaCreditoDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoFacturaPago.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoFacturaEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoFacturaDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoArticuloExistencia.sql" />
+    <Build Include="dbo\Tables\EPK_GrupoZona.sql" />
+    <Build Include="dbo\Tables\EPK_GrupoFuncionalidad.sql" />
+    <Build Include="dbo\Tables\EPK_Grupo.sql" />
+    <Build Include="dbo\Tables\EPK_Genero.sql" />
+    <Build Include="dbo\Tables\EPK_Funcionalidad.sql" />
+    <Build Include="dbo\Tables\EPK_FormaPago.sql" />
+    <Build Include="dbo\Tables\EPK_FeriadosRegion.sql" />
+    <Build Include="dbo\Tables\EPK_Feriados.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaPago.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaEsperaEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaEsperaDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_EventoTerminal.sql" />
+    <Build Include="dbo\Tables\EPK_Estatus.sql" />
+    <Build Include="dbo\Tables\EPK_Estado.sql" />
+    <Build Include="dbo\Tables\EPK_EntidadFinanciera.sql" />
+    <Build Include="dbo\Tables\EPK_EmpleadoTerminal.sql" />
+    <Build Include="dbo\Tables\EPK_Empleados.sql" />
+    <Build Include="dbo\Tables\EPK_EmpleadoLocalidad.sql" />
+    <Build Include="dbo\Tables\EPK_EmpleadoAcceso.sql" />
+    <Build Include="dbo\Tables\EPK_EfectivoRemanenteEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_EfectivoRemanenteDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_Dispositivo.sql" />
+    <Build Include="dbo\Tables\EPK_Descuento.sql" />
+    <Build Include="dbo\Tables\EPK_DepositoEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_DepositoDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_Departamento.sql" />
+    <Build Include="dbo\Tables\EPK_Denominacion.sql" />
+    <Build Include="dbo\Tables\EPK_ConfiguracionSistema.sql" />
+    <Build Include="dbo\Tables\EPK_CombinacionGrupos.sql" />
+    <Build Include="dbo\Tables\EPK_Color.sql" />
+    <Build Include="dbo\Tables\EPK_Coleccion.sql" />
+    <Build Include="dbo\Tables\EPK_ClienteTelefono.sql" />
+    <Build Include="dbo\Tables\EPK_Cliente.sql" />
+    <Build Include="dbo\Tables\EPK_Ciudad.sql" />
+    <Build Include="dbo\Tables\EPK_CierreVentaPOS.sql" />
+    <Build Include="dbo\Tables\EPK_CierreVentaPagos.sql" />
+    <Build Include="dbo\Tables\EPK_CierreVentaEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_CierreMaquinaFiscal.sql" />
+    <Build Include="dbo\Tables\EPK_CierreCajeroPOS.sql" />
+    <Build Include="dbo\Tables\EPK_CierreCajeroPagos.sql" />
+    <Build Include="dbo\Tables\EPK_CierreCajeroEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_CierreCajeroDenominacion.sql" />
+    <Build Include="dbo\Tables\EPK_CajaDispositivoHistorico.sql" />
+    <Build Include="dbo\Tables\EPK_CajaDispositivo.sql" />
+    <Build Include="dbo\Tables\EPK_Caja.sql" />
+    <Build Include="dbo\Tables\EPK_Auditoria.sql" />
+    <Build Include="dbo\Tables\EPK_ArticuloTienda.sql" />
+    <Build Include="dbo\Tables\EPK_Articulo.sql" />
+    <Build Include="dbo\Tables\EPK_App.sql" />
+    <Build Include="dbo\Tables\EPK_AperturaCajeroEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_AperturaCajeroDenominacion.sql" />
+    <Build Include="dbo\Tables\EPK_Almacen.sql" />
+    <Build Include="dbo\Tables\EPK_AlivioEfectivoEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_AlivioEfectivoDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_ActualizacionEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_ActualizacionColeccion.sql" />
+    <Build Include="dbo\Tables\EPK_ActualizacionArticulo.sql" />
+    <Build Include="dbo\Tables\EPK_Accion.sql" />
+    <Build Include="dbo\Tables\ELMAH_Error.sql" />
+    <Build Include="dbo\Views\Ventas Tiendas.sql" />
+    <Build Include="dbo\Functions\fn_ValidarTipoLecturaHora.sql" />
+    <Build Include="dbo\Functions\fn_ObtenerTerminal.sql" />
+    <Build Include="dbo\Functions\fn_ObtenerParametroNumerico.sql" />
+    <Build Include="dbo\Functions\fn_ObtenerParametroEntero.sql" />
+    <Build Include="dbo\Functions\fn_ExisteObjetoPrincipal.sql" />
+    <Build Include="dbo\Functions\F_CalcularValor.sql" />
+    <Build Include="dbo\Functions\EPK_ObtenerDiaSemanaDesc.sql" />
+    <Build Include="dbo\Functions\CalcularTransacciones.sql" />
+    <Build Include="dbo\Stored Procedures\SP_MaestroPedidoSugerido.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_IngresarEventoTerminal.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_IngresarEmpleadoTerminal.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_IngresarEmpleadoLocalidad.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_IngresarEmpleadoAcceso.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_GestionarZona.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_EventoTerminalCrear.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_EliminarZona.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_EliminarGrupoZona.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarZonas.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarTerminalMensaje.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarRegionUbicacion.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarLocalidad.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarLecturas.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarGrupos.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarEmpleadoTerminal.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultarEmpleadoLocalidad.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ConsultaModoVerificacion.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ActualizarZona.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ActualizarGrupoZona.sql" />
+    <Build Include="dbo\Stored Procedures\EPKC_sp_ActualizarEventoTerminal.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_TipoRegionConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_TipoInsumoConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_TerminalConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_TerminalActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVentaDiaria.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVariacionesCalcular.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteReferenciasSinMovimiento.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReportePagosConsolidados.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteInasistenciasCalcular.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteFacturasCanceladas.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteFacturasAnuladas.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteDevoluciones.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteDescansoCalcular.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteConciliacionFormaPagoDetalle.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteConciliacionFormaPago.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteComprobanteDeposito.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteComportamientoVta.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteCierreCajero.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteAperturaCajero.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_RegionPaisConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_RegionPaisActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_RegionesConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_RegionesActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_LecturasActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_HuellaEmpleadoConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_HuellaEmpleadoActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_GrupoZonaConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_EventoTerminalCrear.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_EventoTerminalConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_EventoTerminalActualizar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_EPK_EmpleadoAccesoConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ActualizarDatosUsuarioTerminal.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_ConsultarMes.sql" />
+    <Build Include="dbo\Rules\TipoTerminal.sql" />
+    <Build Include="dbo\Rules\TipoEntrada.sql" />
+    <Build Include="dbo\User Defined Types\TipoTerminal.sql" />
+    <Build Include="dbo\User Defined Types\TipoEntrada.sql" />
+    <Build Include="dbo\User Defined Types\tmp_UsuarioTienda.sql" />
+    <Build Include="dbo\User Defined Types\tmp_UsuarioApp.sql" />
+    <Build Include="dbo\User Defined Types\tmp_TTiendaFPago.sql" />
+    <Build Include="dbo\User Defined Types\tmp_POSTienda.sql" />
+    <Build Include="dbo\User Defined Types\tmp_PerfilObjetos.sql" />
+    <Build Include="dbo\User Defined Types\tmp_PerfilAccion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ObjetoAccion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_FeriadosRegion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_FacturaPago.sql" />
+    <Build Include="dbo\User Defined Types\tmp_DescansoTurno.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ArticuloActGrupo.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ArticuloActGenero.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionTiendaImportacion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionTienda.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionColeccionEliminar.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionColeccion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionArticuloImportacion.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionArticuloEliminar.sql" />
+    <Build Include="dbo\User Defined Types\tmp_ActualizacionArticulo.sql" />
+    <Build Include="dbo\User Defined Types\tbl_FacturaPago.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteOperacionesCajero.sql" />
+    <Build Include="dbo\Tables\AcumuladoVentasDiarias.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVentasxArticulos.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteResumenDiarioVtas.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_MaestroPedidoSugerido.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_LogErroresGenerar.sql" />
+    <None Include="Scripts\Data.Delete.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ArticuloConsultar.sql" />
+    <Build Include="dbo\Tables\EPK_NotaCreditoEsperaEncabezado.sql" />
+    <Build Include="dbo\Tables\EPK_NotaCreditoEsperaDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_ClienteFormaPago.sql" />
+    <Build Include="dbo\Tables\EPK_DepositoCheque.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVtaDiariaTotalesFPConsolidado.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVtaDiariaTotalesConsolidado.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVtaDiariaFPConsolidado.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReporteVtaDiariaFPDetallado.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_PedidoSugeridoTotales.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ActualizacionArticuloEjecutar.sql" />
+    <Build Include="dbo\Tables\EPK_Cargo.sql" />
+    <Build Include="dbo\Tables\EPK_Contingencia.sql" />
+    <Build Include="dbo\Tables\EPK_Contingencia.sql" />
+    <Build Include="dbo\Tables\EPK_Contingencia.sql" />
+    <Build Include="dbo\Tables\SIV_VentasConsolidadas.sql" />
+    <Build Include="dbo\Tables\SIV_ComisionEmpleado.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ComisionesCalcular.sql" />
+    <Build Include="dbo\Tables\SRV_Scheduler.sql" />
+    <Build Include="dbo\Tables\SRV_JobScheduler.sql" />
+    <Build Include="dbo\Tables\SRV_Job.sql" />
+    <Build Include="dbo\Functions\fn_ObtenerParametroCadena.sql" />
+    <Build Include="dbo\Stored Procedures\SRV_sp_JobConsultar.sql" />
+    <Build Include="dbo\Stored Procedures\SIV_sp_Inicializar_Ventas.sql" />
+    <Build Include="dbo\Stored Procedures\SIV_sp_ActualizarVentasConsolidadas.sql">
+      <AnsiNulls>Off</AnsiNulls>
+    </Build>
+    <Build Include="dbo\Stored Procedures\EPK_sp_VentasDynamics.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_VentasConsolidadas.sql" />
+    <Build Include="dbo\Tables\SRV_JobTienda.sql" />
+    <Build Include="dbo\Tables\EPK_VentasDiarias.sql" />
+    <Build Include="dbo\Tables\EPK_HistoricoContingencia.sql" />
+    <Build Include="dbo\Tables\EPK_FlujoEfectivoDetalle.sql" />
+    <Build Include="dbo\Tables\EPK_FlujoEfectivo.sql" />
+    <Build Include="dbo\Tables\EPK_ActualizacionTienda_1.sql" />
+    <Build Include="dbo\Tables\EPK_FacturaEncabezadocalBackup.sql" />
+    <Build Include="dbo\Tables\EPK_ClienteCompra.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ReconstruirClienteCompra.sql" />
+    <Build Include="dbo\Stored Procedures\EPK_sp_ComisionesCalcular_1.sql" />
+    <Build Include="dbo\Tables\SIV_VentasConsolidadas_1.sql" />
+    <Build Include="dbo\Tables\EPK_VentasVolumen.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+    <None Include="Scripts\Data.GrantAll.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Data.EPK_ParametrosSistema.sql" />
+    <None Include="Publicacion a EPKDEV02 .xml" />
+    <None Include="DB.publishRonald.xml" />
+    <None Include="DB.publish3.xml" />
+    <None Include="DB_1.publish.xml" />
+    <None Include="PublicacionLABORATORIO.publish.xml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DB\bin\Debug\DB.dacpac
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DB\bin\Debug\DB.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DB\bin\Debug\DB.pdb
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DB\obj\Debug\DB.dll
+C:\Users\cmonasterio\Documents\Visual Studio 2013\Projects\Apps\SEGAN Pos\Dev\Dev\Src\DB\obj\Debug\DB.pdb

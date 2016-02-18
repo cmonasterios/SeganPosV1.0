@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.TeamFoundation.Common</id>
+    <version>12.0.30501.1</version>
+    <title>nuget-bot.Microsoft.TeamFoundation.Common</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.common.aspx</licenseUrl>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.common.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Team Foundation is a multitiered application for which users install some components on client computers and other components on the application tier.</description>
+    <releaseNotes />
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft TeamFoundation Common nuget-bot</tags>
+    <dependencies>
+      <dependency id="nuget-bot.Microsoft.VisualStudio.Services.Common" version="12.0.21005.1" />
+    </dependencies>
+  </metadata>
+</package>

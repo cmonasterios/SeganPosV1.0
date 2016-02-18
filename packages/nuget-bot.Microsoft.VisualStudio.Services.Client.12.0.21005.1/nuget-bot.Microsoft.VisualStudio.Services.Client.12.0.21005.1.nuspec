@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.VisualStudio.Services.Client</id>
+    <version>12.0.21005.1</version>
+    <title>nuget-bot.Microsoft.VisualStudio.Services.Client</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.services.client.aspx</licenseUrl>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.services.client.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.Services.Client</description>
+    <releaseNotes />
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio Services Client nuget-bot</tags>
+    <dependencies>
+      <dependency id="nuget-bot.Microsoft.VisualStudio.Services.Common" version="12.0.21005.1" />
+    </dependencies>
+  </metadata>
+</package>

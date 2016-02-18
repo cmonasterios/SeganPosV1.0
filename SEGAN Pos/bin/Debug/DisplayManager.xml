@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DisplayManager</name>
+    </assembly>
+    <members>
+        <member name="M:DisplayManager.Providers.BematechDisplay.InicializeComponent">
+            <summary>
+            Se utiliza para realizar la configuracion del puerto con valores por defecto de 
+            parida, Baud ratio, Databits y bit de parada
+            </summary>
+            <param name="Puerto"></param>
+            <returns>Puerto serial con estatus abierto</returns>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.FinalizeComponent(System.IO.Ports.SerialPort)">
+            <summary>
+            Realiza el cierre de conexion con el puerto serial que se le envía
+            </summary>
+            <param name="port">Puerto Serial</param>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.ClearDisplay(System.IO.Ports.SerialPort)">
+            <summary>
+            Permite limpiar la pantalla del Pole Display
+            </summary>
+            <param name="port">Puerto Serial</param>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.EscribirArticulo(System.IO.Ports.SerialPort,System.String,System.String,System.String)">
+            <summary>
+            Se encarga de escribir el articulo con su precio y subtotal en el Pole Display
+            </summary>
+            <param name="port">Puerto Serial</param>
+            <param name="producto">Nombre del Producto</param>
+            <param name="precioUnit">Precio Unitario</param>
+            <param name="precioTotal">SubTotal</param>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.EscribirLinea(System.IO.Ports.SerialPort,DisplayManager.Providers.DisplayManagerEnum.Linea,System.String,DisplayManager.Providers.DisplayManagerEnum.Alineacion)">
+            <summary>
+            Se utiliza para escribir lineas en el Pole Display, con la alineacion que se quiera
+            </summary>
+            <param name="port">Puerto Serial</param>
+            <param name="nroLinea">Nro de Linea en la que se escribira</param>
+            <param name="linea">Texto a escribir</param>
+            <param name="alineacion">Tipo de alineacion a utilizar</param>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.AlinearTexto(System.String,DisplayManager.Providers.DisplayManagerEnum.Alineacion)">
+            <summary>
+            Se utiliza para estructurar el texto con el formato de 20 caracteres y alineacion deseada
+            </summary>
+            <param name="linea">texto a esxribir</param>
+            <param name="alineacion">Tipo de alineacion a utilizar</param>
+            <returns>Devuelve una cadena de 20 caracteres con la alineacion requerida</returns>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.Indent(System.Int32,System.Char)">
+            <summary>
+            se utiliza solo para para la alineacion centrado, devuelve una cadena repetida del caracter "pad"
+            </summary>
+            <param name="count">tamaño de la cadena</param>
+            <param name="pad">Caracter a repetir</param>
+            <returns></returns>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.BeginScroll(System.IO.Ports.SerialPort,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Se Utiliza para realizar el scrolling del texto en el Pole Display
+            </summary>
+            <param name="port">Puerto Serial</param>
+            <param name="direccion">Direccion de la animacion</param>
+            <param name="IntervalTime">Tiempo de delay de la animacion en milisegundos</param>
+            <param name="pLinea1">Primera linea</param>
+            <param name="pLinea2">Segunda linea</param>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.BeginStandBy(System.Object)">
+            <summary>
+            Se utiliza para cuando se va a modo stand by del pole display
+            </summary>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.timer_Elapsed(System.IO.Ports.SerialPort,System.String,System.String,System.Int32)">
+            <summary>
+            Realiza la escritura de las cadenas y las modifica para la proxima escritura
+            </summary>
+            <param name="port">Puerti Serial</param>
+            <param name="direccion">Direccion de la animacion</param>
+            <param name="pLinea1">Primera linea</param>
+            <returns>El retorno es un arreglo con las dos lineas que van cambiando mientras se esta en modo standby</returns>
+        </member>
+        <member name="M:DisplayManager.Providers.BematechDisplay.EndScroll">
+            <summary>
+            Se Utiliza para detener el scrolling
+            </summary>
+        </member>
+    </members>
+</doc>
